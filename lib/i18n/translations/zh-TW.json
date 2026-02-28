@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "home": "首頁",
+    "topics": "主題",
+    "for": "受眾",
+    "language": "語言",
+    "campus": "教育研究",
+    "healthcare": "醫療",
+    "education": "教育",
+    "revitalization": "都市更新",
+    "lifestyle": "生活",
+    "transportation": "交通",
+    "caseStudies": "案例研究",
+    "forPersonal": "居民專區",
+    "forSchool": "學校專區",
+    "forGovernment": "政府專區",
+    "forInvestment": "投資專區"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "download": "下載",
+    "contact": "聯絡我們",
+    "donate": "捐款",
+    "collaborate": "合作",
+    "readMore": "閱讀更多",
+    "backToHome": "返回首頁",
+    "sources": "資料來源",
+    "aiDisclaimer": "AI 生成概念圖"
+  },
+  "hero": {
+    "title": "Hudson Valley 振興計畫",
+    "subtitle": "當歷史遇見創新",
+    "tagline": "9 個縣。210 萬人。一個正在崛起的地區。",
+    "cta": "探索計畫",
+    "ctaRole": "找到你的角色"
+  },
+  "audiences": {
+    "selectPrompt": "我是...",
+    "selectDesc": "選擇你的視角，查看與你最相關的資訊。",
+    "personal": {
+      "title": "居民專區",
+      "desc": "了解振興計畫如何改善日常生活、醫療可近性，以及您和家人的社區福祉。",
+      "shortDesc": "了解 Hudson Valley 為你和家人提供的一切。"
+    },
+    "school": {
+      "title": "學校專區",
+      "desc": "探索教育合作、校園整合，以及將學生與真實世界創新連結的學習機會。",
+      "shortDesc": "教育機會與校園發展計畫。"
+    },
+    "government": {
+      "title": "政府專區",
+      "desc": "檢視推動 Hudson Valley 轉型的政策框架、基礎建設計畫與公私協力夥伴關係。",
+      "shortDesc": "政策框架、補助金與公民合作計畫。"
+    },
+    "investment": {
+      "title": "投資專區",
+      "desc": "評估市場機會、成長預測，以及投資 Hudson Valley 復興的策略優勢。",
+      "shortDesc": "經濟機會與發展投資報酬預測。"
+    }
+  },
+  "home": {
+    "explore": {
+      "tagline": "當歷史遇見創新",
+      "title": "探索計畫",
+      "desc": "全面的區域倡議，透過藝術、科技、農業、醫療和永續社區的策略投資，改造 Hudson Valley。"
+    },
+    "timeline": "振興時間軸",
+    "topics": {
+      "campus": "世界級大學推動學術卓越與區域創新。",
+      "healthcare": "大型醫療網路和先進醫療服務，打造更健康的地區。",
+      "education": "從文理學院到量子計算，多元化的教育生態系。",
+      "revitalization": "四千萬美元市中心振興計畫，改造多個城市中心。",
+      "lifestyle": "農場、酒莊、藝術中心和文化目的地的繽紛組合。",
+      "transportation": "透過 Metro-North、Amtrak 和州際公路連結紐約市的戰略交通。",
+      "caseStudies": "相近城市和地區成功振興的經驗借鑑。"
+    }
+  },
+  "stats": {
+    "driInvestment": "DRI 投資額",
+    "campusSize": "縣份數",
+    "population": "人口",
+    "avgHome": "活躍農場",
+    "driDesc": "市中心振興計畫",
+    "campusDesc": "沿 Hudson River 的九個縣",
+    "populationDesc": "Hudson Valley 地區居民",
+    "avgHomeDesc": "蓬勃的農業遺產"
+  },
+  "cta": {
+    "title": "參與改變",
+    "desc": "每一份貢獻都讓 Hudson Valley 離願景更近一步。",
+    "donate": {
+      "title": "捐款",
+      "desc": "支持社區專案，讓振興計畫成為現實。",
+      "button": "立即捐款"
+    },
+    "collaborate": {
+      "title": "合作",
+      "desc": "與我們在教育、醫療或商業發展方面攜手合作。",
+      "button": "加入我們"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "desc": "有問題或想法？聯繫計畫委員會。",
+      "button": "發送訊息"
+    }
+  },
+  "footer": {
+    "copyright": "Hudson Valley 振興計畫。版權所有。",
+    "about": "關於我們",
+    "aboutDesc": "Hudson Valley 振興計畫是一項全面的區域倡議，透過藝術、科技、農業、醫療和永續社區的策略投資，改造和振興紐約州 Hudson Valley 地區的 9 個縣。",
+    "topicsTitle": "主題",
+    "stakeholdersTitle": "受眾專區",
+    "connectTitle": "聯繫我們",
+    "contactUs": "聯絡我們",
+    "newsletter": "電子報",
+    "twitterX": "Twitter / X",
+    "facebook": "Facebook",
+    "privacy": "隱私政策",
+    "terms": "服務條款"
+  },
+  "mapExplorer": {
+    "badge": "互動地圖",
+    "title": "探索 Hudson Valley",
+    "desc": "捲動瀏覽各主題，探索關鍵地點與社區資產。",
+    "backToMap": "回到地圖",
+    "topics": {
+      "campus": {
+        "title": "教育與研究",
+        "desc": "世界級大學包括 Vassar、Bard 和 SUNY New Paltz，推動區域創新。"
+      },
+      "healthcare": {
+        "title": "醫療健康",
+        "desc": "主要醫療網路包括 WMCHealth 和 Northwell Health，服務 350 萬居民。"
+      },
+      "education": {
+        "title": "教育樞紐",
+        "desc": "從文理學院到量子計算，Hudson Valley 擁有多元化的高等教育機構。"
+      },
+      "revitalization": {
+        "title": "市中心振興",
+        "desc": "四千萬美元 DRI 投資，改造 Poughkeepsie、Beacon、Kingston 和 White Plains 等城市中心。"
+      },
+      "lifestyle": {
+        "title": "生活與文化",
+        "desc": "標誌性藝術機構、農場到餐桌美食、酒莊和戶外休閒，豐富 Hudson Valley 體驗。"
+      },
+      "transportation": {
+        "title": "交通運輸",
+        "desc": "Metro-North 鐵路、Amtrak，加上距紐約市 60-90 分鐘的策略位置，交通便利。"
+      },
+      "technology": {
+        "title": "科技創新",
+        "desc": "IBM 量子計算中心和日益壯大的科技生態系，將 Hudson Valley 定位為創新走廊。"
+      }
+    }
+  },
+  "pages": {
+    "campus": {
+      "title": "教育與研究",
+      "desc": "世界級大學和創新中心，奠定 Hudson Valley 知識經濟的基石。"
+    },
+    "healthcare": {
+      "title": "醫療",
+      "desc": "透過區域網路和先進醫療改善醫療可近性與品質。"
+    },
+    "education": {
+      "title": "教育",
+      "desc": "打造培育下一代面對科技驅動世界的教育生態系統。"
+    },
+    "revitalization": {
+      "title": "都市更新",
+      "desc": "為 Hudson Valley 的市中心、社區與公共空間注入新活力。"
+    },
+    "lifestyle": {
+      "title": "生活",
+      "desc": "打造充滿藝術、農場、餐飲、休閒與生活品質的活力社區。"
+    },
+    "transportation": {
+      "title": "交通",
+      "desc": "以現代化、永續且便利的交通網絡連結 Hudson Valley。"
+    },
+    "caseStudies": {
+      "title": "案例研究",
+      "desc": "成功社區振興與創新驅動成長的真實案例。"
+    }
+  }
+}

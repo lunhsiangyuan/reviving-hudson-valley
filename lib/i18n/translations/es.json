@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "topics": "Temas",
+    "for": "Para",
+    "language": "Idioma",
+    "campus": "Educacion e Investigacion",
+    "healthcare": "Salud",
+    "education": "Educacion",
+    "revitalization": "Revitalizacion",
+    "lifestyle": "Estilo de Vida",
+    "transportation": "Transporte",
+    "caseStudies": "Casos de Estudio",
+    "forPersonal": "Para Residentes",
+    "forSchool": "Para Escuelas",
+    "forGovernment": "Para el Gobierno",
+    "forInvestment": "Para Inversionistas"
+  },
+  "common": {
+    "learnMore": "Mas Informacion",
+    "viewAll": "Ver Todo",
+    "download": "Descargar",
+    "contact": "Contactenos",
+    "donate": "Donar",
+    "collaborate": "Colaborar",
+    "readMore": "Leer Mas",
+    "backToHome": "Volver al Inicio",
+    "sources": "Fuentes",
+    "aiDisclaimer": "Ilustracion conceptual generada por IA"
+  },
+  "hero": {
+    "title": "Plan de Revitalizacion del Hudson Valley",
+    "subtitle": "Donde la Historia Encuentra la Innovacion",
+    "tagline": "9 Condados. 2.1 Millones de Personas. Una Region en Ascenso.",
+    "cta": "Explorar el Plan",
+    "ctaRole": "Encuentra Tu Rol"
+  },
+  "audiences": {
+    "selectPrompt": "Yo soy...",
+    "selectDesc": "Elige tu perspectiva para ver lo que mas te importa.",
+    "personal": {
+      "title": "Residentes",
+      "desc": "Descubra como el plan de revitalizacion mejora la vida diaria, el acceso a la salud y el bienestar comunitario para usted y su familia.",
+      "shortDesc": "Descubra lo que Hudson Valley ofrece para usted y su familia."
+    },
+    "school": {
+      "title": "Escuelas",
+      "desc": "Explore alianzas educativas, integracion con el campus y oportunidades de aprendizaje que conectan a los estudiantes con la innovacion real.",
+      "shortDesc": "Oportunidades educativas y planes de desarrollo del campus."
+    },
+    "government": {
+      "title": "Gobierno",
+      "desc": "Revise los marcos de politicas, planes de infraestructura y alianzas publico-privadas que impulsan la transformacion del Hudson Valley.",
+      "shortDesc": "Marcos de politicas, subvenciones y programas de asociacion civica."
+    },
+    "investment": {
+      "title": "Inversion",
+      "desc": "Evalue las oportunidades de mercado, proyecciones de crecimiento y ventajas estrategicas de invertir en el renacimiento del Hudson Valley.",
+      "shortDesc": "Oportunidades economicas y proyecciones de ROI."
+    }
+  },
+  "home": {
+    "explore": {
+      "tagline": "Donde la Historia Encuentra la Innovacion",
+      "title": "Explorar el Plan",
+      "desc": "Una iniciativa regional integral para transformar el Hudson Valley a traves de inversiones estrategicas en artes, tecnologia, agricultura, salud y comunidades sostenibles."
+    },
+    "timeline": "Cronologia de Revitalizacion",
+    "topics": {
+      "campus": "Universidades de clase mundial impulsando la excelencia academica y la innovacion regional.",
+      "healthcare": "Grandes redes de atencion medica y servicios medicos avanzados construyendo una region mas saludable.",
+      "education": "Desde artes liberales hasta computacion cuantica, un ecosistema educativo diverso.",
+      "revitalization": "Iniciativa de Revitalizacion del Centro de $40M+ transformando multiples centros de ciudades.",
+      "lifestyle": "Una vibrante mezcla de granjas, bodegas, centros de arte y destinos culturales.",
+      "transportation": "Conectividad estrategica con NYC via Metro-North, Amtrak y autopistas interestatales.",
+      "caseStudies": "Lecciones de ciudades y regiones comparables que se han revitalizado con exito."
+    }
+  },
+  "stats": {
+    "driInvestment": "Inversion DRI",
+    "campusSize": "Condados",
+    "population": "Poblacion",
+    "avgHome": "Granjas Activas",
+    "driDesc": "Iniciativa de Revitalizacion del Centro",
+    "campusDesc": "Nueve condados a lo largo del rio Hudson",
+    "populationDesc": "Residentes de la region Hudson Valley",
+    "avgHomeDesc": "Prospero patrimonio agricola"
+  },
+  "cta": {
+    "title": "Se Parte del Cambio",
+    "desc": "Cada contribucion acerca al Hudson Valley a su vision.",
+    "donate": {
+      "title": "Donar",
+      "desc": "Apoye proyectos comunitarios y ayude a hacer realidad el plan de revitalizacion.",
+      "button": "Hacer una Contribucion"
+    },
+    "collaborate": {
+      "title": "Colaborar",
+      "desc": "Asociese con nosotros en iniciativas de educacion, salud o desarrollo empresarial.",
+      "button": "Involucrese"
+    },
+    "contact": {
+      "title": "Contactenos",
+      "desc": "Tiene preguntas o ideas? Comuniquese con el comite de planificacion.",
+      "button": "Enviar un Mensaje"
+    }
+  },
+  "footer": {
+    "copyright": "Plan de Revitalizacion del Hudson Valley. Todos los derechos reservados.",
+    "about": "Acerca de",
+    "aboutDesc": "El Plan de Revitalizacion del Hudson Valley es una iniciativa regional integral para transformar y revitalizar el Hudson Valley, NY a traves de inversiones estrategicas en artes, tecnologia, agricultura, salud y comunidades sostenibles en 9 condados.",
+    "topicsTitle": "Temas",
+    "stakeholdersTitle": "Para Interesados",
+    "connectTitle": "Conectar",
+    "contactUs": "Contactenos",
+    "newsletter": "Boletin",
+    "twitterX": "Twitter / X",
+    "facebook": "Facebook",
+    "privacy": "Privacidad",
+    "terms": "Terminos"
+  },
+  "mapExplorer": {
+    "badge": "Mapa Interactivo",
+    "title": "Explorar Hudson Valley",
+    "desc": "Desplacese por los temas para explorar ubicaciones clave y activos comunitarios.",
+    "backToMap": "Volver al Mapa",
+    "topics": {
+      "campus": {
+        "title": "Educacion e Investigacion",
+        "desc": "Universidades de clase mundial incluyendo Vassar, Bard y SUNY New Paltz impulsando la innovacion regional."
+      },
+      "healthcare": {
+        "title": "Salud y Bienestar",
+        "desc": "Grandes redes de salud incluyendo WMCHealth y Northwell Health sirviendo a 3.5 millones de residentes."
+      },
+      "education": {
+        "title": "Centro Educativo",
+        "desc": "Desde artes liberales hasta computacion cuantica, Hudson Valley alberga diversas instituciones de educacion superior."
+      },
+      "revitalization": {
+        "title": "Revitalizacion del Centro",
+        "desc": "Inversion DRI de $40M+ transformando centros de Poughkeepsie, Beacon, Kingston y White Plains."
+      },
+      "lifestyle": {
+        "title": "Estilo de Vida y Cultura",
+        "desc": "Instituciones de arte iconicas, gastronomia de granja a mesa, bodegas y recreacion al aire libre."
+      },
+      "transportation": {
+        "title": "Transporte y Acceso",
+        "desc": "Tren Metro-North, Amtrak y ubicacion estrategica a 60-90 minutos de NYC."
+      },
+      "technology": {
+        "title": "Tecnologia e Innovacion",
+        "desc": "El Centro de Computacion Cuantica de IBM y el creciente ecosistema tecnologico posicionan al Hudson Valley como corredor de innovacion."
+      }
+    }
+  },
+  "pages": {
+    "campus": {
+      "title": "Educacion e Investigacion",
+      "desc": "Universidades de clase mundial y centros de innovacion anclando la economia del conocimiento del Hudson Valley."
+    },
+    "healthcare": {
+      "title": "Salud",
+      "desc": "Transformando el acceso y la calidad de la atencion medica a traves de redes regionales y atencion avanzada."
+    },
+    "education": {
+      "title": "Educacion",
+      "desc": "Construyendo un ecosistema educativo que prepara a la proxima generacion para un mundo impulsado por la tecnologia."
+    },
+    "revitalization": {
+      "title": "Revitalizacion",
+      "desc": "Dando nueva vida a los centros, vecindarios y espacios publicos del Hudson Valley."
+    },
+    "lifestyle": {
+      "title": "Estilo de Vida",
+      "desc": "Creando comunidades vibrantes con artes, granjas, gastronomia, recreacion y calidad de vida."
+    },
+    "transportation": {
+      "title": "Transporte",
+      "desc": "Conectando Hudson Valley con redes de transporte modernas, sostenibles y accesibles."
+    },
+    "caseStudies": {
+      "title": "Casos de Estudio",
+      "desc": "Ejemplos reales de revitalizacion comunitaria exitosa y crecimiento impulsado por la innovacion."
+    }
+  }
+}
