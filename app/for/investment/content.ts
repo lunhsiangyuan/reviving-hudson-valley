@@ -10,26 +10,10 @@ const en = {
     title: "Market Overview",
     desc: "Key indicators show consistent growth and investment momentum in Hudson Valley.",
     stats: [
-      {
-        label: "Avg. Home Price",
-        value: "$395K",
-        detail: "+63% since 2019",
-      },
-      {
-        label: "Population",
-        value: "30,345",
-        detail: "Growing community",
-      },
-      {
-        label: "Public Investment",
-        value: "$10M+",
-        detail: "DRI + BOA grants",
-      },
-      {
-        label: "Facade Renovations",
-        value: "17 buildings",
-        detail: "Downtown core",
-      },
+      { label: "Median Household Income", value: "$117,663", detail: "+2.3% YoY (2023)" },
+      { label: "Regional Population", value: "2.1M+", detail: "9-county region" },
+      { label: "Public Investment", value: "$53.1M+", detail: "ESD 2025 Regional Grant" },
+      { label: "DRI Projects", value: "7+ cities", detail: "$40M+ total investment" },
     ],
   },
   investmentCasesSection: {
@@ -37,164 +21,61 @@ const en = {
     desc: "These businesses and organizations have already invested in Hudson Valley's revival, establishing a proven track record of growth.",
     visitWebsite: "Visit Website",
     cases: [
-      {
-        name: "Gan Jing World",
-        sector: "Technology",
-        description:
-          "Technology and clean-content video platform headquartered in Hudson Valley, bringing tech jobs and innovation to the community.",
-      },
-      {
-        name: "NTD Television",
-        sector: "Media",
-        description:
-          "International multilingual television network providing independent news and cultural programming to a global audience.",
-      },
-      {
-        name: "The Epoch Times",
-        sector: "Media",
-        description:
-          "Multi-language international media organization with print and digital news operations based in the Hudson Valley area.",
-      },
-      {
-        name: "Sound of Hope Radio",
-        sector: "Media",
-        description:
-          "Chinese-language radio network delivering news and cultural content, with broadcasting operations in the region.",
-      },
-      {
-        name: "New Hudson Valley Department Store",
-        sector: "Retail",
-        description:
-          "$2.1M retail investment by Shen Yun, revitalizing a downtown commercial space into a full-service department store.",
-      },
-      {
-        name: "Fei Tian College",
-        sector: "Education",
-        description:
-          "NECHE-accredited college offering programs in Dance, Fine Arts, Data Science, Biomedical Sciences, Quantum Computing, and Biostatistics.",
-      },
-      {
-        name: "Fei Tian Academy",
-        sector: "Education",
-        description:
-          "K-12 arts school cultivating classical Chinese dance, music, and fine arts education for young students.",
-      },
-      {
-        name: "Touro College of Osteopathic Medicine",
-        sector: "Education",
-        description:
-          "Medical school training the next generation of physicians, creating a healthcare workforce pipeline for the region.",
-      },
-      {
-        name: "Northern Medical Center",
-        sector: "Healthcare",
-        description:
-          "Integrative medical center offering Primary Care, Chinese Medicine, Mental Health, TMS, Physical Therapy, and more.",
-      },
-      {
-        name: "Taiwan Way",
-        sector: "Food & Beverage",
-        description:
-          "Taiwanese restaurant bringing authentic Asian cuisine to downtown Hudson Valley, enriching the local dining scene.",
-      },
-      {
-        name: "Mister Croissant",
-        sector: "Food & Beverage",
-        description:
-          "French bakery offering artisan pastries and fresh-baked bread, adding European flair to the commercial core.",
-      },
-      {
-        name: "Monte Pastries",
-        sector: "Food & Beverage",
-        description:
-          "European pastry shop featuring handcrafted cakes and desserts, contributing to downtown revitalization.",
-      },
+      { name: "IBM Quantum Computation Center", sector: "Technology", description: "IBM's historic Poughkeepsie campus hosts the world's first Quantum Computation Center (2019) with 20+ quantum systems. Anchors regional tech identity." },
+      { name: "WMCHealth Network", sector: "Healthcare", description: "$1B+ health system with 10 hospitals, 12,000+ employees. Received $100M state funding for 2025 modernization—region's largest single healthcare investment." },
+      { name: "Dia:Beacon", sector: "Arts & Tourism", description: "300,000 sq ft contemporary art museum transformed Beacon's economy since 2003. Inspired $200M+ in follow-on investment along Main Street corridor." },
+      { name: "Hudson Valley Venture Hub", sector: "Technology", description: "SUNY New Paltz startup accelerator generated $4.5M returns in year 1 with 20+ companies. ESD-designated Innovation Hotspot with $250K/year funding." },
+      { name: "Millbrook Vineyards & Winery", sector: "Agriculture", description: "Pioneer Hudson Valley winery representing a $301M agriculture sector (2,280+ farms). Agri-tourism revenue grew 78% from 2012-2022." },
+      { name: "Storm King Art Center", sector: "Arts & Tourism", description: "500-acre outdoor sculpture park draws 100K+ annual visitors to New Windsor, generating significant regional tourism revenue and hospitality demand." },
+      { name: "ConnectHV", sector: "Technology", description: "Regional tech community platform with ~1,000 members, catalyzing the remote-work migration from NYC. Represents $157K average HV household income demographic." },
+      { name: "Scenic Hudson", sector: "Environment", description: "Since 1963, protected 53,000+ acres and built 45+ parks. Environmental stewardship creates $100M+ in ecosystem services and supports $3B+ tourism economy." },
+      { name: "Mohonk Mountain House", sector: "Tourism", description: "National Historic Landmark resort on Shawangunk Ridge—a century-old hospitality institution driving year-round tourism. Sky Top Tower a crown jewel of eco-tourism." },
     ],
   },
   opportunitySection: {
     title: "Opportunity Sectors",
     desc: "Key sectors with the highest growth potential for new investment.",
     sectors: [
-      {
-        title: "Healthcare",
-        description:
-          "Growing demand for medical services with Touro COM training pipeline and Northern Medical Center expansion.",
-      },
-      {
-        title: "Education",
-        description:
-          "Multiple colleges and training institutions creating demand for student housing, services, and technology.",
-      },
-      {
-        title: "Technology",
-        description:
-          "Gan Jing World HQ establishes a tech presence; opportunity for supporting businesses and tech services.",
-      },
-      {
-        title: "Food & Beverage",
-        description:
-          "Downtown revitalization creating prime restaurant and retail spaces with growing foot traffic.",
-      },
-      {
-        title: "Real Estate",
-        description:
-          "63% home value appreciation since 2019; commercial spaces being renovated; 270-acre campus development planned.",
-      },
-      {
-        title: "Media & Entertainment",
-        description:
-          "Established media organizations create an ecosystem for content production, broadcasting, and digital services.",
-      },
+      { title: "Healthcare & Biotech", description: "WMCHealth + Northwell/Vassar Brothers create 25,000+ healthcare jobs. IBM Quantum Computing positions region for biotech and clinical AI applications." },
+      { title: "AgriTech & Food", description: "$301M agriculture sector with 2,280+ farms. 78% agri-tourism growth (2012-2022) and craft beverage boom (wineries, distilleries, ciderworks) signal premium food economy." },
+      { title: "Arts & Cultural Tourism", description: "Dia:Beacon, Storm King, Bard Fisher Center attract 1M+ annual visitors. Arts-driven revitalization (Beacon, Hudson, Peekskill) creates hospitality and retail opportunities." },
+      { title: "Quantum & Deep Tech", description: "IBM Quantum Center operates 20+ systems executing 2B+ quantum circuits/day. First-mover opportunity for quantum software, sensing, and workforce development." },
+      { title: "Real Estate & Housing", description: "Critical housing shortage (9,000+ fewer units vs pre-COVID). Westchester median $700K+ with demand far outstripping supply across all 9 counties." },
+      { title: "Remote Work Infrastructure", description: "NYC-to-HV migration drives demand for co-working, broadband, fiber, transit-oriented development. Metro-North upgrade targeting <90 min NYC-Poughkeepsie." },
     ],
   },
   strategicSection: {
     title: "Strategic Advantages",
     desc: "Why Hudson Valley is uniquely positioned for investment success.",
     advantages: [
-      {
-        title: "90 Minutes from NYC",
-        description:
-          "Direct access to New York City via I-84, Route 17, and NJ Transit rail, providing metro-area connectivity at a fraction of the cost.",
-      },
-      {
-        title: "Multi-Modal Transportation",
-        description:
-          "Interstate highways, commuter rail, and the Heritage Trail create excellent accessibility for residents and businesses.",
-      },
-      {
-        title: "Trained Workforce",
-        description:
-          "Fei Tian College, Touro COM, and SUNY Orange provide a steady pipeline of educated professionals in healthcare, technology, and the arts.",
-      },
-      {
-        title: "Government Support",
-        description:
-          "$10M+ in public investment through DRI, BOA grants, and NYS programs demonstrate strong government commitment to growth.",
-      },
+      { title: "60-150 Miles from NYC", description: "Metro-North Hudson Line direct to Grand Central. Governor Hochul's rail proposal targets NYC-Poughkeepsie <90 minutes, unlocking full commuter-suburb economics." },
+      { title: "IBM Quantum Anchor", description: "World's first Quantum Computation Center in Poughkeepsie establishes deep tech credibility. First-mover advantage for quantum-adjacent businesses." },
+      { title: "Arts & Culture Critical Mass", description: "Dia:Beacon + Storm King + Bard + Hudson Valley arts scene creates self-reinforcing cultural tourism economy that attracts high-income demographics." },
+      { title: "Agricultural Heritage + Tourism", description: "$301M farm economy, 2,280+ farms, 78% agri-tourism growth. NYS requires 70% local ingredients—creating supply chain demand for craft beverages." },
     ],
   },
   roiSection: {
     title: "ROI Analysis",
-    desc: "Historical data demonstrates strong returns across multiple investment categories.",
+    desc: "Hudson Valley delivers compounding returns across multiple asset classes.",
     homeValue: {
-      title: "Home Value Appreciation",
+      title: "Home Value Appreciation (Sullivan County)",
       year2019: "2019",
-      price2019: "~$242K",
+      price2019: "~$200K",
       year2025: "2025",
-      price2025: "$395K",
-      appreciation: "+63%",
-      appreciationDetail: "Home value appreciation in 6 years",
+      price2025: "$400K+",
+      appreciation: "+100%",
+      appreciationDetail: "Sullivan County home values doubled in 6 years",
     },
     publicPrivate: {
-      title: "Public & Private Investment",
+      title: "2025 Public Investment Leverage",
       items: [
-        { label: "DRI Public Investment", value: "$10.0M" },
-        { label: "Dept. Store (Shen Yun)", value: "$2.1M" },
-        { label: "BOA Planning Grant", value: "$250K" },
-        { label: "Facade Renovations (17 bldgs)", value: "$1.0M" },
+        { label: "ESD Regional Council Grants", value: "$53.1M" },
+        { label: "DRI (Multiple Cities)", value: "$40M+" },
+        { label: "WMCHealth State Funding", value: "$100M" },
+        { label: "Leveraged Private Investment", value: "$216.9M" },
       ],
-      total: "$13.35M+",
-      totalLabel: "Total documented investment",
+      total: "$410M+",
+      totalLabel: "Total documented 2025 investment",
     },
   },
   cta: {
@@ -217,26 +98,10 @@ const zhTW: InvestmentContent = {
     title: "市場概覽",
     desc: "關鍵指標顯示 Hudson Valley 持續成長與投資動能。",
     stats: [
-      {
-        label: "平均房價",
-        value: "$395K",
-        detail: "自 2019 年以來 +63%",
-      },
-      {
-        label: "人口",
-        value: "30,345",
-        detail: "持續成長的社區",
-      },
-      {
-        label: "公共投資",
-        value: "$10M+",
-        detail: "DRI + BOA 補助金",
-      },
-      {
-        label: "外牆翻新",
-        value: "17 棟建築",
-        detail: "市中心核心區域",
-      },
+      { label: "家庭中位收入", value: "$117,663", detail: "+2.3% 年增（2023）" },
+      { label: "區域人口", value: "2.1M+", detail: "9 縣轄區" },
+      { label: "公共投資", value: "$53.1M+", detail: "ESD 2025 區域補助金" },
+      { label: "DRI 專案", value: "7 個以上城市", detail: "$40M+ 總投資" },
     ],
   },
   investmentCasesSection: {
@@ -244,164 +109,61 @@ const zhTW: InvestmentContent = {
     desc: "這些企業和組織已投資 Hudson Valley 的復興，建立了成長的良好紀錄。",
     visitWebsite: "造訪網站",
     cases: [
-      {
-        name: "Gan Jing World",
-        sector: "Technology",
-        description:
-          "總部位於 Hudson Valley 的科技與乾淨內容影音平台，為社區帶來科技就業機會與創新。",
-      },
-      {
-        name: "NTD Television",
-        sector: "Media",
-        description:
-          "國際多語電視網絡，為全球觀眾提供獨立新聞與文化節目。",
-      },
-      {
-        name: "The Epoch Times",
-        sector: "Media",
-        description:
-          "多語國際媒體組織，於 Hudson Valley 地區設有紙本及數位新聞運營。",
-      },
-      {
-        name: "Sound of Hope Radio",
-        sector: "Media",
-        description:
-          "中文廣播電台網絡，提供新聞與文化內容，在該地區設有廣播運營。",
-      },
-      {
-        name: "New Hudson Valley Department Store",
-        sector: "Retail",
-        description:
-          "Shen Yun 投資 $2.1M 的零售項目，將市中心商業空間轉型為全方位百貨公司。",
-      },
-      {
-        name: "Fei Tian College",
-        sector: "Education",
-        description:
-          "NECHE 認證的學院，提供舞蹈、美術、資料科學、生物醫學、量子計算及生物統計等課程。",
-      },
-      {
-        name: "Fei Tian Academy",
-        sector: "Education",
-        description:
-          "K-12 藝術學校，培養年輕學生的中國古典舞、音樂及美術教育。",
-      },
-      {
-        name: "Touro College of Osteopathic Medicine",
-        sector: "Education",
-        description:
-          "培訓下一代醫師的醫學院，為該地區建立醫療人才供應鏈。",
-      },
-      {
-        name: "Northern Medical Center",
-        sector: "Healthcare",
-        description:
-          "整合醫學中心，提供家庭醫學、中醫、心理健康、TMS、物理治療等多項服務。",
-      },
-      {
-        name: "Taiwan Way",
-        sector: "Food & Beverage",
-        description:
-          "台灣餐廳，將正宗亞洲料理帶入 Hudson Valley 市中心，豐富當地餐飲選擇。",
-      },
-      {
-        name: "Mister Croissant",
-        sector: "Food & Beverage",
-        description:
-          "法式烘焙坊，提供手工糕點與現烤麵包，為商業核心區增添歐式風情。",
-      },
-      {
-        name: "Monte Pastries",
-        sector: "Food & Beverage",
-        description:
-          "歐式糕點店，以手工蛋糕和甜點為特色，為市中心復興做出貢獻。",
-      },
+      { name: "IBM Quantum Computation Center", sector: "Technology", description: "IBM 歷史悠久的 Poughkeepsie 園區設有全球首座量子計算中心（2019），擁有 20 套以上量子系統，奠定區域深科技地位。" },
+      { name: "WMCHealth Network", sector: "Healthcare", description: "超過 $10 億的醫療系統，擁有 10 家醫院、12,000 名以上員工。2025 年現代化計畫獲州政府 $1 億資助，為區域最大單筆醫療投資。" },
+      { name: "Dia:Beacon", sector: "Arts & Tourism", description: "30 萬平方英尺當代藝術博物館自 2003 年起改變 Beacon 的經濟面貌，帶動 Main Street 走廊超過 $2 億的後續投資。" },
+      { name: "Hudson Valley Venture Hub", sector: "Technology", description: "SUNY New Paltz 新創加速器首年即帶來 $450 萬回報，孵化 20 家以上企業，獲 ESD 指定為創新熱區，每年獲 $25 萬資助。" },
+      { name: "Millbrook Vineyards & Winery", sector: "Agriculture", description: "Hudson Valley 先驅酒莊，代表規模 $3.01 億的農業產業（2,280 多個農場）。農業觀光收入 2012 至 2022 年增長 78%。" },
+      { name: "Storm King Art Center", sector: "Arts & Tourism", description: "500 英畝戶外雕塑公園每年吸引逾 10 萬名遊客至 New Windsor，為區域旅遊業及酒店業創造可觀收益。" },
+      { name: "ConnectHV", sector: "Technology", description: "區域科技社群平台，擁有約 1,000 名成員，推動 NYC 遠距工作移民潮，代表平均家庭收入 $15.7 萬的 HV 人口結構。" },
+      { name: "Scenic Hudson", sector: "Environment", description: "自 1963 年起保護超過 53,000 英畝土地，建立 45 座以上公園，環境管理創造逾 $1 億生態系服務價值，支撐逾 $30 億旅遊經濟。" },
+      { name: "Mohonk Mountain House", sector: "Tourism", description: "坐落於 Shawangunk Ridge 的國家歷史地標度假村，百年酒店業機構，全年驅動旅遊；天頂塔（Sky Top Tower）為生態旅遊的明珠。" },
     ],
   },
   opportunitySection: {
     title: "機會產業",
     desc: "具有最高成長潛力的新投資關鍵產業。",
     sectors: [
-      {
-        title: "醫療保健",
-        description:
-          "隨著 Touro COM 人才培訓管道及 Northern Medical Center 擴建，醫療服務需求持續增長。",
-      },
-      {
-        title: "教育",
-        description:
-          "多所大學和培訓機構創造了對學生住宿、服務和科技的需求。",
-      },
-      {
-        title: "科技",
-        description:
-          "Gan Jing World 總部建立科技據點；支援企業和科技服務的商機應運而生。",
-      },
-      {
-        title: "餐飲業",
-        description:
-          "市中心活化創造優質餐廳與零售空間，人流持續增加。",
-      },
-      {
-        title: "不動產",
-        description:
-          "自 2019 年以來房價增值 63%；商業空間持續翻新；270 英畝校園開發計畫進行中。",
-      },
-      {
-        title: "媒體與娛樂",
-        description:
-          "成熟的媒體組織建構了內容製作、廣播及數位服務的生態系統。",
-      },
+      { title: "醫療保健與生技", description: "WMCHealth + Northwell/Vassar Brothers 創造逾 25,000 個醫療就業機會，IBM 量子計算更為區域生技及臨床 AI 應用奠定基礎。" },
+      { title: "農業科技與食品", description: "$3.01 億農業產業，擁有 2,280 多個農場。農業觀光成長 78%（2012-2022），精釀飲品熱潮（酒莊、蒸餾廠、蘋果酒廠）標誌優質食品經濟崛起。" },
+      { title: "藝術與文化旅遊", description: "Dia:Beacon、Storm King、巴德費雪中心每年吸引逾 100 萬遊客，藝術驅動的城鎮復興（Beacon、Hudson、Peekskill）創造酒店與零售商機。" },
+      { title: "量子與深科技", description: "IBM 量子中心運行 20 套以上系統，每日執行超過 20 億次量子電路。量子軟體、感測及人才培育的先佔優勢。" },
+      { title: "不動產與住宅", description: "嚴峻住宅短缺（比 COVID 前減少 9,000 套以上）。Westchester 中位房價逾 $70 萬，9 縣全境供不應求。" },
+      { title: "遠距工作基礎設施", description: "NYC 人口移入 HV 帶動共同工作空間、寬頻光纖及大眾運輸導向開發需求。Metro-North 升級目標 NYC-Poughkeepsie 不到 90 分鐘。" },
     ],
   },
   strategicSection: {
     title: "策略優勢",
     desc: "為何 Hudson Valley 在投資方面具有獨特定位。",
     advantages: [
-      {
-        title: "距紐約市 90 分鐘",
-        description:
-          "透過 I-84、Route 17 及 NJ Transit 鐵路直達紐約市，以極低成本享受都會區連通性。",
-      },
-      {
-        title: "多元交通方式",
-        description:
-          "州際公路、通勤鐵路及 Heritage Trail 為居民和企業提供優秀的可及性。",
-      },
-      {
-        title: "訓練有素的勞動力",
-        description:
-          "Fei Tian College、Touro COM 和 SUNY Orange 提供醫療、科技和藝術領域的穩定專業人才。",
-      },
-      {
-        title: "政府支持",
-        description:
-          "透過 DRI、BOA 補助金及紐約州計畫投入超過 $10M 公共投資，展現政府對成長的堅定承諾。",
-      },
+      { title: "距 NYC 60-150 英里", description: "Metro-North 哈德遜線直達大中央車站。Hochul 州長的鐵路方案目標 NYC-Poughkeepsie 不到 90 分鐘，開啟完整通勤郊區經濟效益。" },
+      { title: "IBM 量子計算錨點", description: "全球首座量子計算中心落腳 Poughkeepsie，建立深科技公信力，為量子相關企業提供先佔優勢。" },
+      { title: "藝術與文化臨界量", description: "Dia:Beacon + Storm King + 巴德大學 + Hudson Valley 藝術圈形成自我強化的文化旅遊經濟，吸引高收入人口聚集。" },
+      { title: "農業遺產與觀光", description: "$3.01 億農業經濟，2,280 多個農場，農業觀光成長 78%。紐約州規定飲品需含 70% 在地原料，為精釀飲品產業創造供應鏈需求。" },
     ],
   },
   roiSection: {
     title: "投資報酬率分析",
-    desc: "歷史數據顯示多個投資類別具有強勁回報。",
+    desc: "Hudson Valley 在多種資產類別上提供複合成長回報。",
     homeValue: {
-      title: "房產增值",
+      title: "房產增值（Sullivan County）",
       year2019: "2019",
-      price2019: "~$242K",
+      price2019: "~$200K",
       year2025: "2025",
-      price2025: "$395K",
-      appreciation: "+63%",
-      appreciationDetail: "6 年內房產增值幅度",
+      price2025: "$400K+",
+      appreciation: "+100%",
+      appreciationDetail: "Sullivan County 房價 6 年翻倍",
     },
     publicPrivate: {
-      title: "公共與民間投資",
+      title: "2025 年公共投資槓桿",
       items: [
-        { label: "DRI 公共投資", value: "$10.0M" },
-        { label: "百貨公司 (Shen Yun)", value: "$2.1M" },
-        { label: "BOA 規劃補助金", value: "$250K" },
-        { label: "外牆翻新（17 棟）", value: "$1.0M" },
+        { label: "ESD 區域理事會補助金", value: "$53.1M" },
+        { label: "DRI（多個城市）", value: "$40M+" },
+        { label: "WMCHealth 州政府資助", value: "$100M" },
+        { label: "槓桿民間投資", value: "$216.9M" },
       ],
-      total: "$13.35M+",
-      totalLabel: "已記錄的總投資額",
+      total: "$410M+",
+      totalLabel: "2025 年已記錄總投資",
     },
   },
   cta: {
@@ -422,26 +184,10 @@ const es: InvestmentContent = {
     title: "Panorama del Mercado",
     desc: "Los indicadores clave muestran crecimiento consistente e impulso de inversión en Hudson Valley.",
     stats: [
-      {
-        label: "Precio Prom. de Vivienda",
-        value: "$395K",
-        detail: "+63% desde 2019",
-      },
-      {
-        label: "Población",
-        value: "30,345",
-        detail: "Comunidad en crecimiento",
-      },
-      {
-        label: "Inversión Pública",
-        value: "$10M+",
-        detail: "Subvenciones DRI + BOA",
-      },
-      {
-        label: "Renovaciones de Fachada",
-        value: "17 edificios",
-        detail: "Zona céntrica",
-      },
+      { label: "Ingreso Familiar Mediano", value: "$117,663", detail: "+2.3% interanual (2023)" },
+      { label: "Población Regional", value: "2.1M+", detail: "Región de 9 condados" },
+      { label: "Inversión Pública", value: "$53.1M+", detail: "Subvención Regional ESD 2025" },
+      { label: "Proyectos DRI", value: "7+ ciudades", detail: "$40M+ inversión total" },
     ],
   },
   investmentCasesSection: {
@@ -449,164 +195,61 @@ const es: InvestmentContent = {
     desc: "Estas empresas y organizaciones ya han invertido en la revitalización de Hudson Valley, estableciendo un historial comprobado de crecimiento.",
     visitWebsite: "Visitar Sitio Web",
     cases: [
-      {
-        name: "Gan Jing World",
-        sector: "Technology",
-        description:
-          "Plataforma tecnológica de video y contenido limpio con sede en Hudson Valley, generando empleos tecnológicos e innovación en la comunidad.",
-      },
-      {
-        name: "NTD Television",
-        sector: "Media",
-        description:
-          "Red televisiva internacional multilingüe que ofrece noticias independientes y programación cultural a una audiencia global.",
-      },
-      {
-        name: "The Epoch Times",
-        sector: "Media",
-        description:
-          "Organización mediática internacional multilingüe con operaciones de noticias impresas y digitales en el área de Hudson Valley.",
-      },
-      {
-        name: "Sound of Hope Radio",
-        sector: "Media",
-        description:
-          "Red de radio en idioma chino que transmite noticias y contenido cultural, con operaciones de radiodifusión en la región.",
-      },
-      {
-        name: "New Hudson Valley Department Store",
-        sector: "Retail",
-        description:
-          "Inversión minorista de $2.1M por Shen Yun, revitalizando un espacio comercial del centro en una tienda departamental de servicio completo.",
-      },
-      {
-        name: "Fei Tian College",
-        sector: "Education",
-        description:
-          "Universidad acreditada por NECHE que ofrece programas en Danza, Bellas Artes, Ciencia de Datos, Ciencias Biomédicas, Computación Cuántica y Bioestadística.",
-      },
-      {
-        name: "Fei Tian Academy",
-        sector: "Education",
-        description:
-          "Escuela de artes K-12 que cultiva la danza clásica china, música y educación en bellas artes para estudiantes jóvenes.",
-      },
-      {
-        name: "Touro College of Osteopathic Medicine",
-        sector: "Education",
-        description:
-          "Escuela de medicina que forma la próxima generación de médicos, creando una fuente de profesionales de salud para la región.",
-      },
-      {
-        name: "Northern Medical Center",
-        sector: "Healthcare",
-        description:
-          "Centro médico integrativo que ofrece Atención Primaria, Medicina China, Salud Mental, TMS, Terapia Física y más.",
-      },
-      {
-        name: "Taiwan Way",
-        sector: "Food & Beverage",
-        description:
-          "Restaurante taiwanés que trae cocina asiática auténtica al centro de Hudson Valley, enriqueciendo la escena gastronómica local.",
-      },
-      {
-        name: "Mister Croissant",
-        sector: "Food & Beverage",
-        description:
-          "Panadería francesa que ofrece pastelería artesanal y pan recién horneado, añadiendo estilo europeo al núcleo comercial.",
-      },
-      {
-        name: "Monte Pastries",
-        sector: "Food & Beverage",
-        description:
-          "Pastelería europea con pasteles y postres artesanales, contribuyendo a la revitalización del centro.",
-      },
+      { name: "IBM Quantum Computation Center", sector: "Technology", description: "El histórico campus de IBM en Poughkeepsie alberga el primer Centro de Computación Cuántica del mundo (2019) con más de 20 sistemas cuánticos. Ancla la identidad tecnológica de la región." },
+      { name: "WMCHealth Network", sector: "Healthcare", description: "Sistema de salud de más de $1,000M con 10 hospitales y más de 12,000 empleados. Recibió $100M en fondos estatales para modernización 2025—la mayor inversión sanitaria única de la región." },
+      { name: "Dia:Beacon", sector: "Arts & Tourism", description: "Museo de arte contemporáneo de 300,000 pies cuadrados que transformó la economía de Beacon desde 2003. Inspiró más de $200M en inversión posterior en el corredor de Main Street." },
+      { name: "Hudson Valley Venture Hub", sector: "Technology", description: "Acelerador de startups de SUNY New Paltz que generó $4.5M en retornos en el año 1 con más de 20 empresas. Innovation Hotspot designado por ESD con $250K/año de financiamiento." },
+      { name: "Millbrook Vineyards & Winery", sector: "Agriculture", description: "Bodega pionera de Hudson Valley que representa un sector agrícola de $301M (más de 2,280 granjas). Los ingresos de agroturismo crecieron 78% de 2012 a 2022." },
+      { name: "Storm King Art Center", sector: "Arts & Tourism", description: "Parque de esculturas al aire libre de 500 acres que atrae más de 100K visitantes anuales a New Windsor, generando importantes ingresos turísticos y demanda de hospitalidad." },
+      { name: "ConnectHV", sector: "Technology", description: "Plataforma de comunidad tecnológica regional con ~1,000 miembros, catalizando la migración de trabajo remoto desde NYC. Representa el segmento demográfico con ingreso familiar promedio de $157K." },
+      { name: "Scenic Hudson", sector: "Environment", description: "Desde 1963, protegió más de 53,000 acres y construyó más de 45 parques. La administración ambiental crea más de $100M en servicios ecosistémicos y apoya una economía turística de más de $3,000M." },
+      { name: "Mohonk Mountain House", sector: "Tourism", description: "Resort Landmark Histórico Nacional en Shawangunk Ridge—institución de hospitalidad centenaria que impulsa el turismo durante todo el año. La Sky Top Tower es la joya del ecoturismo." },
     ],
   },
   opportunitySection: {
     title: "Sectores de Oportunidad",
     desc: "Sectores clave con el mayor potencial de crecimiento para nueva inversión.",
     sectors: [
-      {
-        title: "Salud",
-        description:
-          "Demanda creciente de servicios médicos con la fuente de formación de Touro COM y la expansión de Northern Medical Center.",
-      },
-      {
-        title: "Educación",
-        description:
-          "Múltiples universidades e instituciones de formación que generan demanda de vivienda estudiantil, servicios y tecnología.",
-      },
-      {
-        title: "Tecnología",
-        description:
-          "La sede de Gan Jing World establece presencia tecnológica; oportunidad para negocios de soporte y servicios tecnológicos.",
-      },
-      {
-        title: "Alimentos y Bebidas",
-        description:
-          "La revitalización del centro crea espacios privilegiados para restaurantes y comercios con tráfico peatonal creciente.",
-      },
-      {
-        title: "Bienes Raíces",
-        description:
-          "63% de apreciación del valor inmobiliario desde 2019; espacios comerciales en renovación; desarrollo de campus de 270 acres planificado.",
-      },
-      {
-        title: "Medios y Entretenimiento",
-        description:
-          "Organizaciones mediáticas establecidas crean un ecosistema para producción de contenido, transmisión y servicios digitales.",
-      },
+      { title: "Salud y Biotecnología", description: "WMCHealth + Northwell/Vassar Brothers crean más de 25,000 empleos en salud. IBM Quantum Computing posiciona la región para aplicaciones de biotecnología e IA clínica." },
+      { title: "AgroTech y Alimentos", description: "Sector agrícola de $301M con más de 2,280 granjas. Crecimiento del 78% en agroturismo (2012-2022) y auge de bebidas artesanales (bodegas, destilerías, sidrerías) señalan una economía alimentaria premium." },
+      { title: "Arte y Turismo Cultural", description: "Dia:Beacon, Storm King, Bard Fisher Center atraen más de 1M de visitantes anuales. La revitalización impulsada por las artes (Beacon, Hudson, Peekskill) crea oportunidades de hospitalidad y comercio." },
+      { title: "Quantum y Deep Tech", description: "El Centro Cuántico de IBM opera más de 20 sistemas ejecutando más de 2,000M de circuitos cuánticos/día. Oportunidad de primer movimiento en software cuántico, sensores y desarrollo de fuerza laboral." },
+      { title: "Bienes Raíces y Vivienda", description: "Escasez crítica de vivienda (más de 9,000 unidades menos vs pre-COVID). Precio mediano en Westchester superior a $700K con demanda que supera ampliamente la oferta en los 9 condados." },
+      { title: "Infraestructura de Trabajo Remoto", description: "La migración NYC-a-HV impulsa la demanda de coworking, banda ancha, fibra y desarrollo orientado al transporte. Mejora de Metro-North con objetivo de <90 min NYC-Poughkeepsie." },
     ],
   },
   strategicSection: {
     title: "Ventajas Estratégicas",
     desc: "Por qué Hudson Valley tiene una posición única para el éxito en inversiones.",
     advantages: [
-      {
-        title: "A 90 Minutos de NYC",
-        description:
-          "Acceso directo a la Ciudad de Nueva York vía I-84, Route 17 y NJ Transit, ofreciendo conectividad metropolitana a una fracción del costo.",
-      },
-      {
-        title: "Transporte Multimodal",
-        description:
-          "Autopistas interestatales, tren de cercanías y Heritage Trail crean excelente accesibilidad para residentes y empresas.",
-      },
-      {
-        title: "Fuerza Laboral Capacitada",
-        description:
-          "Fei Tian College, Touro COM y SUNY Orange proporcionan un flujo constante de profesionales en salud, tecnología y artes.",
-      },
-      {
-        title: "Apoyo Gubernamental",
-        description:
-          "Más de $10M en inversión pública a través de DRI, subvenciones BOA y programas de NYS demuestran un fuerte compromiso gubernamental con el crecimiento.",
-      },
+      { title: "60-150 Millas de NYC", description: "Metro-North Hudson Line directo a Grand Central. La propuesta ferroviaria del Gobernador Hochul apunta a NYC-Poughkeepsie en <90 minutos, desbloqueando plena economía suburbana de commuters." },
+      { title: "IBM Quantum como Ancla", description: "El primer Centro de Computación Cuántica del mundo en Poughkeepsie establece credibilidad en tecnología profunda. Ventaja de primer movimiento para negocios adyacentes al quantum." },
+      { title: "Masa Crítica de Arte y Cultura", description: "Dia:Beacon + Storm King + Bard + escena artística de Hudson Valley crea una economía de turismo cultural autorreinforçante que atrae demografía de altos ingresos." },
+      { title: "Herencia Agrícola + Turismo", description: "Economía agrícola de $301M, más de 2,280 granjas, 78% de crecimiento en agroturismo. NYS exige 70% de ingredientes locales—creando demanda en la cadena de suministro de bebidas artesanales." },
     ],
   },
   roiSection: {
     title: "Análisis de ROI",
-    desc: "Los datos históricos demuestran fuertes retornos en múltiples categorías de inversión.",
+    desc: "Hudson Valley ofrece retornos compuestos en múltiples clases de activos.",
     homeValue: {
-      title: "Apreciación del Valor Inmobiliario",
+      title: "Apreciación del Valor Inmobiliario (Condado de Sullivan)",
       year2019: "2019",
-      price2019: "~$242K",
+      price2019: "~$200K",
       year2025: "2025",
-      price2025: "$395K",
-      appreciation: "+63%",
-      appreciationDetail: "Apreciación del valor inmobiliario en 6 años",
+      price2025: "$400K+",
+      appreciation: "+100%",
+      appreciationDetail: "El valor de las viviendas en Sullivan County se duplicó en 6 años",
     },
     publicPrivate: {
-      title: "Inversión Pública y Privada",
+      title: "Apalancamiento de Inversión Pública 2025",
       items: [
-        { label: "Inversión Pública DRI", value: "$10.0M" },
-        { label: "Tienda Departamental (Shen Yun)", value: "$2.1M" },
-        { label: "Subvención de Planificación BOA", value: "$250K" },
-        { label: "Renovaciones de Fachada (17 edif.)", value: "$1.0M" },
+        { label: "Subvenciones del Consejo Regional ESD", value: "$53.1M" },
+        { label: "DRI (Múltiples Ciudades)", value: "$40M+" },
+        { label: "Fondos Estatales WMCHealth", value: "$100M" },
+        { label: "Inversión Privada Apalancada", value: "$216.9M" },
       ],
-      total: "$13.35M+",
-      totalLabel: "Total de inversión documentada",
+      total: "$410M+",
+      totalLabel: "Inversión total documentada 2025",
     },
   },
   cta: {

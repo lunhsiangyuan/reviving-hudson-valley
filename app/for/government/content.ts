@@ -14,81 +14,35 @@ const en = {
     completionLabel: "Completion",
   },
   boaSection: {
-    title: "BOA Planning Progress",
-    desc: "Brownfield Opportunity Area grant of $250,772 is funding redevelopment planning through 2029.",
+    title: "Regional Planning Progress",
+    desc: "NYS CEDS 2025-2029 and HVRC Strategic Plan guide comprehensive regional economic development.",
     timeline: [
-      { year: "2024", event: "BOA Grant Awarded ($250,772)" },
-      { year: "2025", event: "Environmental Assessment & Community Engagement" },
-      { year: "2026", event: "Brownfield Site Analysis & Planning" },
-      { year: "2027", event: "Redevelopment Strategy Finalization" },
-      { year: "2028-29", event: "Implementation & Construction Phase" },
+      { year: "2023", event: "Hudson Valley CEDS 2025-2029 Initiated" },
+      { year: "2024", event: "Poughkeepsie DRI Round 8 ($10M) Approved" },
+      { year: "2025", event: "ESD $53.1M Regional Council Grants Awarded" },
+      { year: "2026", event: "Metro-North Rail Infrastructure Upgrade Begins" },
+      { year: "2027-29", event: "Regional Transformation & Implementation" },
     ],
   },
   impactSection: {
     title: "Economic Impact Dashboard",
     desc: "Key metrics showing the impact of revitalization efforts on Hudson Valley's economy.",
     metrics: [
-      {
-        label: "Population",
-        value: "30,345",
-        detail: "2020 Census",
-      },
-      {
-        label: "Avg. Home Value",
-        value: "$395K",
-        detail: "+63% since 2019",
-      },
-      {
-        label: "DRI Projects",
-        value: "5 completed",
-        detail: "$10M invested",
-      },
-      {
-        label: "BOA Grant",
-        value: "$250,772",
-        detail: "Planning through 2029",
-      },
+      { label: "Regional Population", value: "2.1M+", detail: "9-county Hudson Valley" },
+      { label: "Median Household Income", value: "$117,663", detail: "+2.3% YoY (2023)" },
+      { label: "DRI Investment", value: "$40M+", detail: "Poughkeepsie, Peekskill, White Plains" },
+      { label: "ESD Regional Grant", value: "$53.1M", detail: "53 projects, 7 counties (2025)" },
     ],
   },
   fundingSection: {
     title: "Funding & Grants",
     desc: "Available and completed funding programs for Hudson Valley's revitalization.",
     programs: [
-      {
-        name: "Downtown Revitalization Initiative (DRI)",
-        amount: "$10M",
-        status: "Completed",
-        description:
-          "New York State program for transformative downtown projects.",
-      },
-      {
-        name: "Brownfield Opportunity Area (BOA)",
-        amount: "$250,772",
-        status: "Active",
-        description:
-          "State grant for brownfield redevelopment planning and environmental assessment.",
-      },
-      {
-        name: "Empire State Development (ESD)",
-        amount: "Various",
-        status: "Ongoing",
-        description:
-          "Economic development programs supporting business attraction and retention.",
-      },
-      {
-        name: "Community Development Block Grant (CDBG)",
-        amount: "Various",
-        status: "Eligible",
-        description:
-          "Federal HUD grants for community development and infrastructure improvements.",
-      },
-      {
-        name: "New York Main Street Program",
-        amount: "Up to $500K",
-        status: "Eligible",
-        description:
-          "Funding for downtown anchor projects and building renovations.",
-      },
+      { name: "Downtown Revitalization Initiative (DRI)", amount: "$40M+", status: "Active", description: "Multiple Hudson Valley cities each receiving $10M for downtown transformation." },
+      { name: "ESD Regional Council Initiative", amount: "$53.1M", status: "2025 Award", description: "Mid-Hudson's largest regional grant covering 53 projects across 7 counties." },
+      { name: "FAST NY Shovel-Ready Program", amount: "$400M (statewide)", status: "Available", description: "Funding to prepare development-ready sites across New York State." },
+      { name: "POWER UP Grant", amount: "$300M (statewide)", status: "Available (Nov 2025)", description: "New statewide economic development grant launched November 2025." },
+      { name: "USDA Rural Development", amount: "Various", status: "Ongoing", description: "Federal programs supporting rural community development, housing, and agricultural business." },
     ],
   },
   reportsSection: {
@@ -137,76 +91,35 @@ const zhTW: GovernmentContent = {
     completionLabel: "完成率",
   },
   boaSection: {
-    title: "BOA 規劃進度",
-    desc: "Brownfield Opportunity Area 補助金 $250,772 正資助至 2029 年的重建規劃。",
+    title: "區域規劃進度",
+    desc: "NYS CEDS 2025-2029 及 HVRC 策略計畫引導全面性區域經濟發展。",
     timeline: [
-      { year: "2024", event: "獲得 BOA 補助金（$250,772）" },
-      { year: "2025", event: "環境評估與社區參與" },
-      { year: "2026", event: "棕地場址分析與規劃" },
-      { year: "2027", event: "重建策略定案" },
-      { year: "2028-29", event: "實施與建設階段" },
+      { year: "2023", event: "Hudson Valley CEDS 2025-2029 啟動" },
+      { year: "2024", event: "Poughkeepsie DRI 第 8 輪（$10M）核准" },
+      { year: "2025", event: "ESD $53.1M 區域理事會補助金頒發" },
+      { year: "2026", event: "Metro-North 鐵路基礎設施升級啟動" },
+      { year: "2027-29", event: "區域轉型與落實推進" },
     ],
   },
   impactSection: {
     title: "經濟影響儀表板",
     desc: "關鍵指標顯示都市更新對 Hudson Valley 經濟的影響。",
     metrics: [
-      {
-        label: "人口",
-        value: "30,345",
-        detail: "2020 年人口普查",
-      },
-      {
-        label: "平均房價",
-        value: "$395K",
-        detail: "自 2019 年以來 +63%",
-      },
-      {
-        label: "DRI 專案",
-        value: "5 項已完成",
-        detail: "已投資 $10M",
-      },
-      {
-        label: "BOA 補助金",
-        value: "$250,772",
-        detail: "規劃至 2029 年",
-      },
+      { label: "區域人口", value: "2.1M+", detail: "Hudson Valley 9 縣" },
+      { label: "家庭中位收入", value: "$117,663", detail: "+2.3% 年增（2023）" },
+      { label: "DRI 投資", value: "$40M+", detail: "Poughkeepsie、Peekskill、White Plains" },
+      { label: "ESD 區域補助", value: "$53.1M", detail: "53 個專案，7 縣（2025）" },
     ],
   },
   fundingSection: {
     title: "資金與補助",
     desc: "Hudson Valley 都市更新的可用及已完成資金計畫。",
     programs: [
-      {
-        name: "Downtown Revitalization Initiative (DRI)",
-        amount: "$10M",
-        status: "已完成",
-        description: "紐約州轉型性市中心專案計畫。",
-      },
-      {
-        name: "Brownfield Opportunity Area (BOA)",
-        amount: "$250,772",
-        status: "進行中",
-        description: "州政府棕地重建規劃及環境評估補助。",
-      },
-      {
-        name: "Empire State Development (ESD)",
-        amount: "不等",
-        status: "持續進行",
-        description: "支援企業招商與留才的經濟發展計畫。",
-      },
-      {
-        name: "Community Development Block Grant (CDBG)",
-        amount: "不等",
-        status: "符合資格",
-        description: "聯邦 HUD 社區發展與基礎設施改善補助。",
-      },
-      {
-        name: "New York Main Street Program",
-        amount: "最高 $500K",
-        status: "符合資格",
-        description: "市中心核心專案及建築翻新資金。",
-      },
+      { name: "Downtown Revitalization Initiative (DRI)", amount: "$40M+", status: "進行中", description: "Hudson Valley 多個城市各獲 $10M，用於市中心轉型。" },
+      { name: "ESD 區域理事會倡議", amount: "$53.1M", status: "2025 年頒發", description: "Mid-Hudson 迄今最大區域補助，涵蓋 7 縣 53 個專案。" },
+      { name: "FAST NY 地產開發準備計畫", amount: "$4 億（全州）", status: "可申請", description: "資助全紐約州開發就緒場址的準備工作。" },
+      { name: "POWER UP 補助金", amount: "$3 億（全州）", status: "可申請（2025 年 11 月）", description: "2025 年 11 月推出的全州新經濟發展補助。" },
+      { name: "USDA 農村發展計畫", amount: "不等", status: "持續進行", description: "聯邦計畫，支援農村社區發展、住宅及農業企業。" },
     ],
   },
   reportsSection: {
@@ -253,84 +166,35 @@ const es: GovernmentContent = {
     completionLabel: "Completado",
   },
   boaSection: {
-    title: "Progreso de Planificación BOA",
-    desc: "La subvención del Brownfield Opportunity Area de $250,772 financia la planificación de redesarrollo hasta 2029.",
+    title: "Progreso de Planificación Regional",
+    desc: "El CEDS 2025-2029 de NYS y el Plan Estratégico de HVRC guían el desarrollo económico regional integral.",
     timeline: [
-      { year: "2024", event: "Subvención BOA otorgada ($250,772)" },
-      {
-        year: "2025",
-        event: "Evaluación ambiental y participación comunitaria",
-      },
-      { year: "2026", event: "Análisis y planificación de sitios brownfield" },
-      { year: "2027", event: "Finalización de estrategia de redesarrollo" },
-      { year: "2028-29", event: "Fase de implementación y construcción" },
+      { year: "2023", event: "CEDS 2025-2029 de Hudson Valley Iniciado" },
+      { year: "2024", event: "DRI Ronda 8 de Poughkeepsie ($10M) Aprobada" },
+      { year: "2025", event: "Subvenciones Regionales ESD de $53.1M Otorgadas" },
+      { year: "2026", event: "Inicio de Mejora de Infraestructura Ferroviaria Metro-North" },
+      { year: "2027-29", event: "Transformación e Implementación Regional" },
     ],
   },
   impactSection: {
     title: "Panel de Impacto Económico",
     desc: "Indicadores clave que muestran el impacto de los esfuerzos de revitalización en la economía de Hudson Valley.",
     metrics: [
-      {
-        label: "Población",
-        value: "30,345",
-        detail: "Censo 2020",
-      },
-      {
-        label: "Valor Prom. de Vivienda",
-        value: "$395K",
-        detail: "+63% desde 2019",
-      },
-      {
-        label: "Proyectos DRI",
-        value: "5 completados",
-        detail: "$10M invertidos",
-      },
-      {
-        label: "Subvención BOA",
-        value: "$250,772",
-        detail: "Planificación hasta 2029",
-      },
+      { label: "Población Regional", value: "2.1M+", detail: "9 condados de Hudson Valley" },
+      { label: "Ingreso Familiar Mediano", value: "$117,663", detail: "+2.3% interanual (2023)" },
+      { label: "Inversión DRI", value: "$40M+", detail: "Poughkeepsie, Peekskill, White Plains" },
+      { label: "Subvención Regional ESD", value: "$53.1M", detail: "53 proyectos, 7 condados (2025)" },
     ],
   },
   fundingSection: {
     title: "Financiamiento y Subvenciones",
     desc: "Programas de financiamiento disponibles y completados para la revitalización de Hudson Valley.",
     programs: [
-      {
-        name: "Downtown Revitalization Initiative (DRI)",
-        amount: "$10M",
-        status: "Completado",
-        description:
-          "Programa del Estado de Nueva York para proyectos transformadores del centro urbano.",
-      },
-      {
-        name: "Brownfield Opportunity Area (BOA)",
-        amount: "$250,772",
-        status: "Activo",
-        description:
-          "Subvención estatal para planificación de redesarrollo de brownfields y evaluación ambiental.",
-      },
-      {
-        name: "Empire State Development (ESD)",
-        amount: "Varios",
-        status: "En curso",
-        description:
-          "Programas de desarrollo económico que apoyan la atracción y retención de empresas.",
-      },
-      {
-        name: "Community Development Block Grant (CDBG)",
-        amount: "Varios",
-        status: "Elegible",
-        description:
-          "Subvenciones federales HUD para desarrollo comunitario y mejoras de infraestructura.",
-      },
-      {
-        name: "New York Main Street Program",
-        amount: "Hasta $500K",
-        status: "Elegible",
-        description:
-          "Financiamiento para proyectos ancla del centro y renovaciones de edificios.",
-      },
+      { name: "Downtown Revitalization Initiative (DRI)", amount: "$40M+", status: "Activo", description: "Múltiples ciudades de Hudson Valley reciben $10M cada una para transformación del centro urbano." },
+      { name: "Iniciativa del Consejo Regional ESD", amount: "$53.1M", status: "Premio 2025", description: "La mayor subvención regional de Mid-Hudson, con 53 proyectos en 7 condados." },
+      { name: "Programa FAST NY de Sitios Listos", amount: "$400M (estatal)", status: "Disponible", description: "Fondos para preparar sitios de desarrollo en todo el Estado de Nueva York." },
+      { name: "Subvención POWER UP", amount: "$300M (estatal)", status: "Disponible (nov. 2025)", description: "Nueva subvención estatal de desarrollo económico lanzada en noviembre de 2025." },
+      { name: "Desarrollo Rural USDA", amount: "Varios", status: "En curso", description: "Programas federales de apoyo al desarrollo comunitario rural, vivienda y negocios agrícolas." },
     ],
   },
   reportsSection: {
