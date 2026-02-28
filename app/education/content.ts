@@ -4,42 +4,27 @@ const en = {
   header: {
     badge: "Education",
     title: "Education & Academic Excellence",
-    desc: "Five institutions create a unique academic corridor, making Hudson Valley a growing center for education and innovation.",
+    desc: "Four world-class institutions anchor Hudson Valley's academic corridor, driving innovation, arts, and research across the region.",
   },
-  northernAcademy: {
-    title: "Northern Academy of the Arts",
-    badge: "Grades 5–12",
-    desc: "Northern Academy of the Arts is a college-preparatory boarding and day school combining rigorous classical academics with world-class arts training. Founded in 2016 and accredited by the Middle States Association, the school draws students from 15 countries and maintains a 100% graduation rate.",
-    programsLabel: "Programs & Tracks",
-    tuitionLabel: "Tuition",
-    studentsLabel: "students",
-    stats: {
-      gradRate: "Graduation Rate",
-      sat: "Avg. SAT",
-      niche: "Niche Rating",
-      countries: "Countries",
-    },
+  vassarCollege: {
+    title: "Vassar College",
+    badge: "Liberal Arts",
+    desc: "One of the nation's top liberal arts colleges, Vassar drives research innovation and cultural programming across the Hudson Valley. With 2,400+ students in a 1,000-acre campus, Vassar is a major economic and intellectual anchor for Poughkeepsie.",
   },
-  feiTianCollege: {
-    title: "Fei Tian College",
-    badge: "NECHE Accredited",
-    desc: "Fei Tian College is accredited by the New England Commission of Higher Education (NECHE) and offers a distinctive blend of traditional arts and modern academic programs across two campuses. The college aspires to grow to 5,000 students, establishing itself as a major educational anchor in the region.",
-    programsLabel: "Academic Programs",
-    campusesLabel: "Campuses",
-    tuitionLabel: "Tuition",
-    retentionLabel: "Retention",
-    undergrad: "Undergraduate",
-    grad: "Graduate",
+  bardCollege: {
+    title: "Bard College",
+    badge: "Arts & Sciences",
+    desc: "Bard's progressive interdisciplinary education combines the arts, humanities, and sciences in a uniquely creative environment. The Bard Conservatory and Fisher Center for the Performing Arts anchor a thriving arts economy across the region.",
   },
-  feiTianAcademy: {
-    title: "Fei Tian Academy of the Arts",
-    badge: "K-12",
-    desc: "Fei Tian Academy of the Arts provides rigorous academic and performing arts education from kindergarten through 12th grade. The school's focus on classical arts training, combined with comprehensive academic curricula, produces well-rounded graduates prepared for top universities.",
+  sunyNewPaltz: {
+    title: "SUNY New Paltz",
+    badge: "Public University",
+    desc: "As New York's top public university for teacher education and fine arts, SUNY New Paltz serves 8,000+ students and houses the SUNY New Paltz Venture Hub, recognized by ESD as a regional innovation hotspot in 2024.",
   },
-  touro: {
-    title: "Touro College of Osteopathic Medicine",
-    badge: "Medical School",
-    desc: "Touro COM's Hudson Valley campus brings medical education to the heart of the city. Hundreds of medical students live, study, and contribute to the community, strengthening the local healthcare pipeline and adding vitality to the downtown area.",
+  ibmQuantum: {
+    title: "IBM Quantum Computation Center",
+    badge: "Tech Innovation",
+    desc: "Opened in 2019 in Poughkeepsie, the IBM Quantum Computation Center is the world's first quantum computing data center accessible via the cloud. This positions Hudson Valley as a global hub for quantum technology and IBM's most advanced research.",
   },
   sunyOrange: {
     title: "SUNY Orange",
@@ -67,42 +52,27 @@ const zhTW: EducationContent = {
   header: {
     badge: "教育",
     title: "教育與學術卓越",
-    desc: "五所教育機構形成獨特的學術走廊，使 Hudson Valley 成為日益成長的教育與創新中心。",
+    desc: "四所世界級機構錨定 Hudson Valley 的學術走廊，推動整個地區的創新、藝術與研究發展。",
   },
-  northernAcademy: {
-    title: "Northern Academy of the Arts",
-    badge: "5–12 年級",
-    desc: "Northern Academy of the Arts 是一所結合嚴謹古典學術與世界級藝術訓練的寄宿暨走讀大學預備學校。學校成立於 2016 年，獲 Middle States Association 認證，招收來自 15 個國家的學生，維持 100% 畢業率。",
-    programsLabel: "課程方向",
-    tuitionLabel: "學費",
-    studentsLabel: "名學生",
-    stats: {
-      gradRate: "畢業率",
-      sat: "平均 SAT",
-      niche: "Niche 評級",
-      countries: "個國家",
-    },
+  vassarCollege: {
+    title: "Vassar College",
+    badge: "文理學院",
+    desc: "作為全美頂尖文理學院之一，Vassar College 推動 Hudson Valley 的研究創新與文化項目。2,400 多名學生在佔地 1,000 英畝的校園中學習，Vassar 是 Poughkeepsie 重要的經濟與知識重鎮。",
   },
-  feiTianCollege: {
-    title: "Fei Tian College",
-    badge: "NECHE 認證",
-    desc: "Fei Tian College 獲得新英格蘭高等教育委員會 (NECHE) 認證，在兩個校區提供傳統藝術與現代學術課程的獨特融合。該學院立志成長至 5,000 名學生，確立其作為該地區重要教育核心的地位。",
-    programsLabel: "學術課程",
-    campusesLabel: "校區",
-    tuitionLabel: "學費",
-    retentionLabel: "留校率",
-    undergrad: "本科課程",
-    grad: "研究所課程",
+  bardCollege: {
+    title: "Bard College",
+    badge: "藝術與科學",
+    desc: "Bard College 的進步跨學科教育在獨特的創意環境中融合藝術、人文與科學。Bard 音樂學院和 Fisher 表演藝術中心是整個地區蓬勃發展的藝術經濟核心。",
   },
-  feiTianAcademy: {
-    title: "Fei Tian Academy of the Arts",
-    badge: "K-12",
-    desc: "Fei Tian Academy of the Arts 提供從幼稒園到十二年級的嚴謹學術與表演藝術教育。學校專注於古典藝術訓練，結合全面的學術課程，培養出準備進入頂尖大學的全方位畢業生。",
+  sunyNewPaltz: {
+    title: "SUNY New Paltz",
+    badge: "公立大學",
+    desc: "作為紐約州師範教育與美術的頂尖公立大學，SUNY New Paltz 服務 8,000 多名學生，並設有 SUNY New Paltz Venture Hub 創業加速器，於 2024 年獲 ESD 認定為區域創新熱點。",
   },
-  touro: {
-    title: "Touro College of Osteopathic Medicine",
-    badge: "醫學院",
-    desc: "Touro COM 的 Hudson Valley 校區將醫學教育帶到城市中心。數百名醫學生在此生活、學習並為社區做出貢獻，加強了當地醫療保健人才梯隊，並為市中心增添活力。",
+  ibmQuantum: {
+    title: "IBM 量子計算中心",
+    badge: "科技創新",
+    desc: "2019 年在 Poughkeepsie 正式啟用的 IBM 量子計算中心，是全球首座可透過雲端存取的量子計算數據中心。這使 Hudson Valley 成為量子技術的全球樞紐，也是 IBM 最先進研究的重心所在。",
   },
   sunyOrange: {
     title: "SUNY Orange",
@@ -128,42 +98,27 @@ const es: EducationContent = {
   header: {
     badge: "Educación",
     title: "Educación y Excelencia Académica",
-    desc: "Cinco instituciones educativas crean un corredor académico único, convirtiendo a Hudson Valley en un centro creciente de educación e innovación.",
+    desc: "Cuatro instituciones de clase mundial anclan el corredor académico de Hudson Valley, impulsando la innovación, las artes y la investigación en toda la región.",
   },
-  northernAcademy: {
-    title: "Northern Academy of the Arts",
-    badge: "Grados 5–12",
-    desc: "Northern Academy of the Arts es una escuela preparatoria de internado y externado que combina rigurosos estudios clásicos con formación artística de clase mundial. Fundada en 2016 y acreditada por la Middle States Association, la escuela atrae estudiantes de 15 países y mantiene una tasa de graduación del 100%.",
-    programsLabel: "Programas y Pistas",
-    tuitionLabel: "Matrícula",
-    studentsLabel: "estudiantes",
-    stats: {
-      gradRate: "Tasa de Graduación",
-      sat: "SAT Promedio",
-      niche: "Calificación Niche",
-      countries: "Países",
-    },
+  vassarCollege: {
+    title: "Vassar College",
+    badge: "Artes Liberales",
+    desc: "Una de las mejores universidades de artes liberales del país, Vassar impulsa la innovación en investigación y la programación cultural en todo el Hudson Valley. Con más de 2,400 estudiantes en un campus de 1,000 acres, Vassar es un ancla económica e intelectual fundamental para Poughkeepsie.",
   },
-  feiTianCollege: {
-    title: "Fei Tian College",
-    badge: "Acreditado por NECHE",
-    desc: "Fei Tian College está acreditado por la Comisión de Educación Superior de Nueva Inglaterra (NECHE) y ofrece una combinación distintiva de artes tradicionales y programas académicos modernos en dos campus. La universidad aspira a crecer a 5,000 estudiantes, estableciéndose como un importante ancla educativa en la región.",
-    programsLabel: "Programas Académicos",
-    campusesLabel: "Campus",
-    tuitionLabel: "Matrícula",
-    retentionLabel: "Retención",
-    undergrad: "Pregrado",
-    grad: "Posgrado",
+  bardCollege: {
+    title: "Bard College",
+    badge: "Artes y Ciencias",
+    desc: "La educación interdisciplinaria progresiva de Bard combina las artes, las humanidades y las ciencias en un entorno creativo único. El Conservatorio de Bard y el Fisher Center for the Performing Arts son el núcleo de una próspera economía artística en toda la región.",
   },
-  feiTianAcademy: {
-    title: "Fei Tian Academy of the Arts",
-    badge: "K-12",
-    desc: "Fei Tian Academy of the Arts ofrece educación académica rigurosa y artes escénicas desde jardín de infantes hasta el grado 12. El enfoque de la escuela en la formación de artes clásicas, combinado con planes de estudio académicos integrales, produce graduados completos preparados para las mejores universidades.",
+  sunyNewPaltz: {
+    title: "SUNY New Paltz",
+    badge: "Universidad Pública",
+    desc: "Como la mejor universidad pública de Nueva York para la formación docente y las bellas artes, SUNY New Paltz atiende a más de 8,000 estudiantes y alberga el SUNY New Paltz Venture Hub, reconocido por ESD como un punto de innovación regional en 2024.",
   },
-  touro: {
-    title: "Touro College of Osteopathic Medicine",
-    badge: "Escuela de Medicina",
-    desc: "El campus de Touro COM en Hudson Valley lleva la educación médica al corazón de la ciudad. Cientos de estudiantes de medicina viven, estudian y contribuyen a la comunidad, fortaleciendo el canal local de atención médica y añadiendo vitalidad al centro de la ciudad.",
+  ibmQuantum: {
+    title: "Centro de Computación Cuántica de IBM",
+    badge: "Innovación Tecnológica",
+    desc: "Inaugurado en 2019 en Poughkeepsie, el Centro de Computación Cuántica de IBM es el primer centro de datos de computación cuántica del mundo accesible a través de la nube. Esto posiciona a Hudson Valley como un hub global para la tecnología cuántica y la investigación más avanzada de IBM.",
   },
   sunyOrange: {
     title: "SUNY Orange",

@@ -68,10 +68,10 @@ const caseImages: Record<string, string> = {
   "NTD Television": "/images/ntd.png",
   "The Epoch Times": "/images/epochtimes.png",
   "Sound of Hope Radio": "/images/soundofhope.png",
-  "Fei Tian College": "/images/feitian-college.png",
-  "Fei Tian Academy": "/images/feitian-academy.png",
-  "Touro College of Osteopathic Medicine": "/images/touro.png",
-  "Northern Medical Center": "/images/nmc.png",
+  "Vassar College": "/images/logos/vassar.png",
+  "Bard College": "/images/logos/bard.png",
+  "SUNY New Paltz": "/images/logos/suny-new-paltz.png",
+  "WMCHealth": "/images/logos/wmchealth.png",
 };
 
 const caseWebsites: Record<string, string> = {
@@ -79,10 +79,10 @@ const caseWebsites: Record<string, string> = {
   "NTD Television": "https://www.ntd.com",
   "The Epoch Times": "https://www.theepochtimes.com",
   "Sound of Hope Radio": "https://www.soundofhope.org",
-  "Fei Tian College": "https://www.feitian.edu",
-  "Fei Tian Academy": "https://www.feitianacademy.org",
-  "Touro College of Osteopathic Medicine": "https://tourocom.touro.edu",
-  "Northern Medical Center": "https://www.northernmedicalcenter.com",
+  "Vassar College": "https://www.vassar.edu",
+  "Bard College": "https://www.bard.edu",
+  "SUNY New Paltz": "https://www.newpaltz.edu",
+  "WMCHealth": "https://www.wmchealth.org",
 };
 
 const marketStatIcons = [DollarSign, Users, Landmark, Building2];

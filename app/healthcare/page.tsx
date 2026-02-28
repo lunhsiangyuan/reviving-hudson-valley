@@ -4,7 +4,7 @@ import { HealthcareClient } from "./client";
 export const metadata: Metadata = {
   title: "Healthcare | Hudson Valley Reviving Plan",
   description:
-    "A growing healthcare ecosystem in Hudson Valley, NY: Northern Medical Center, Garnet Health, and Touro College of Osteopathic Medicine.",
+    "Hudson Valley's healthcare ecosystem: WMCHealth (Level I Trauma Center, 9-hospital network), Vassar Brothers Medical Center (Northwell Health affiliate), and Garnet Health Medical Center serving Orange and Sullivan counties.",
 };
 
 export default function HealthcarePage() {

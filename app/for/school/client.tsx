@@ -26,24 +26,24 @@ import type { LucideIcon } from "lucide-react";
 
 const partnerInstitutions = [
   {
-    id: "fei-tian-college",
-    highlight: "NECHE-accredited",
-    programs: ["Dance", "Fine Arts", "Data Science", "Biomedical Sciences", "Quantum Computing", "Biostatistics"],
+    id: "vassar-college",
+    highlight: "Liberal Arts Research",
+    programs: ["Neuroscience", "Biochemistry", "Data Science", "Environmental Studies", "Computer Science"],
   },
   {
-    id: "touro-com",
-    highlight: "Osteopathic Medicine",
-    programs: ["Doctor of Osteopathic Medicine"],
+    id: "bard-college",
+    highlight: "Arts & Humanities",
+    programs: ["Music Conservatory", "Performing Arts", "Film & Electronic Arts", "Human Rights"],
   },
   {
-    id: "suny-orange",
-    highlight: "Community College",
-    programs: ["Associate Degrees", "Certificate Programs"],
+    id: "suny-new-paltz",
+    highlight: "SUNY Public University",
+    programs: ["Public Health", "Engineering", "Business", "Education", "Fine & Performing Arts"],
   },
   {
-    id: "fei-tian-academy",
-    highlight: "K-12 Arts School",
-    programs: ["Performing Arts", "Academic Excellence"],
+    id: "ibm-quantum",
+    highlight: "Quantum Computing",
+    programs: ["Quantum Research", "AI & Machine Learning", "Industry Partnerships"],
   },
 ];
 

@@ -4,12 +4,9 @@ import {
   GraduationCap,
   Award,
   BookOpen,
-  School,
   MapPin,
-  Star,
-  Globe,
+  Cpu,
   Building2,
-  Users,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -18,92 +15,14 @@ import {
   CardTitle,
   CardContent,
 } from "@/components/ui/card";
-import {
-  Tabs,
-  TabsList,
-  TabsTrigger,
-  TabsContent,
-} from "@/components/ui/tabs";
 import { OrgCard } from "@/components/cards/org-card";
 import { ReferenceLinks } from "@/components/reference-links";
 import { CTASection } from "@/components/sections/cta-section";
 import { MapSection } from "@/components/sections/map-section";
-import {
-  resolveOrganizations,
-  isEducationInfo,
-} from "@/lib/data/organizations";
-import type { EducationInfo } from "@/lib/data/organizations";
+import { resolveOrganizations } from "@/lib/data/organizations";
 import { resolveReferences } from "@/lib/data/references";
 import { useLanguage } from "@/lib/i18n/language-context";
 import { content } from "./content";
-
-function ProgramsByLevel({
-  info,
-  undergraduate,
-  graduate,
-}: {
-  info: EducationInfo;
-  undergraduate: string;
-  graduate: string;
-}) {
-  const undergrad = info.programs.filter((p) => p.level === "undergraduate");
-  const grad = info.programs.filter((p) => p.level === "graduate");
-
-  return (
-    <Tabs defaultValue="undergraduate">
-      <TabsList>
-        <TabsTrigger value="undergraduate">
-          {undergraduate} ({undergrad.length})
-        </TabsTrigger>
-        <TabsTrigger value="graduate">
-          {graduate} ({grad.length})
-        </TabsTrigger>
-      </TabsList>
-      <TabsContent value="undergraduate" className="mt-4">
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {undergrad.map((p) => (
-            <Card key={`${p.name}-${p.degree}`}>
-              <CardContent className="pt-4">
-                <div className="mb-1 flex items-center gap-2">
-                  <Badge className="bg-purple-100 text-purple-800 text-xs">
-                    {p.degree}
-                  </Badge>
-                  <span className="text-sm font-medium text-slate-900">
-                    {p.name}
-                  </span>
-                </div>
-                {p.description && (
-                  <p className="text-xs text-slate-500">{p.description}</p>
-                )}
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </TabsContent>
-      <TabsContent value="graduate" className="mt-4">
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {grad.map((p) => (
-            <Card key={`${p.name}-${p.degree}`}>
-              <CardContent className="pt-4">
-                <div className="mb-1 flex items-center gap-2">
-                  <Badge className="bg-indigo-100 text-indigo-800 text-xs">
-                    {p.degree}
-                  </Badge>
-                  <span className="text-sm font-medium text-slate-900">
-                    {p.name}
-                  </span>
-                </div>
-                {p.description && (
-                  <p className="text-xs text-slate-500">{p.description}</p>
-                )}
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </TabsContent>
-    </Tabs>
-  );
-}
 
 export function EducationClient() {
   const { language } = useLanguage();
@@ -112,28 +31,20 @@ export function EducationClient() {
   const orgs = resolveOrganizations(language);
   const refs = resolveReferences(language);
 
-  const feiTianCollege = orgs.find((o) => o.id === "fei-tian-college")!;
-  const feiTianAcademy = orgs.find((o) => o.id === "fei-tian-academy")!;
-  const northernAcademy = orgs.find((o) => o.id === "northern-academy")!;
-  const touro = orgs.find((o) => o.id === "touro-com")!;
-  const sunyOrange = orgs.find((o) => o.id === "suny-orange")!;
+  const vassarCollege = orgs.find((o) => o.id === "vassar-college")!;
+  const bardCollege = orgs.find((o) => o.id === "bard-college")!;
+  const sunyNewPaltz = orgs.find((o) => o.id === "suny-new-paltz")!;
+  const ibmQuantum = orgs.find((o) => o.id === "ibm-poughkeepsie")!;
+  // suny-orange not in organizations.ts — rendered from content only;
 
   const educationRefs = refs.filter((ref) =>
     [
-      "fei-tian-college",
-      "fei-tian-academy",
-      "northern-academy",
-      "touro-com",
-      "suny-orange",
+      "vassar-college",
+      "bard-college",
+      "suny-new-paltz",
+      "ibm-poughkeepsie",
     ].includes(ref.id)
   );
-
-  const ftcInfo = isEducationInfo(feiTianCollege.additionalInfo)
-    ? feiTianCollege.additionalInfo
-    : null;
-  const naInfo = isEducationInfo(northernAcademy.additionalInfo)
-    ? northernAcademy.additionalInfo
-    : null;
 
   return (
     <>
@@ -156,249 +67,114 @@ export function EducationClient() {
         </div>
       </section>
 
-      {/* Northern Academy of the Arts */}
-      {naInfo && (
-        <section className="py-16">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <div className="mb-8 flex items-center gap-2">
-              <Star className="size-5 text-amber-500" />
-              <h2 className="text-2xl font-bold text-slate-900">
-                {c.northernAcademy.title}
-              </h2>
-              <Badge className="bg-amber-100 text-amber-800">
-                {c.northernAcademy.badge}
-              </Badge>
-            </div>
-
-            <div className="grid gap-8 lg:grid-cols-2">
-              <div>
-                <p className="mb-4 text-slate-600">
-                  {c.northernAcademy.desc}
-                </p>
-                {/* Key Stats */}
-                <div className="mt-6 grid grid-cols-2 gap-4">
-                  <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-center">
-                    <p className="text-2xl font-bold text-amber-800">
-                      {naInfo.graduationRate}
-                    </p>
-                    <p className="text-xs text-amber-600">
-                      {c.northernAcademy.stats.gradRate}
-                    </p>
-                  </div>
-                  <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-center">
-                    <p className="text-2xl font-bold text-amber-800">
-                      {naInfo.satAverage}
-                    </p>
-                    <p className="text-xs text-amber-600">
-                      {c.northernAcademy.stats.sat}
-                    </p>
-                  </div>
-                  <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-center">
-                    <p className="text-2xl font-bold text-amber-800">
-                      {naInfo.nicheRating}
-                    </p>
-                    <p className="text-xs text-amber-600">
-                      {c.northernAcademy.stats.niche}
-                    </p>
-                  </div>
-                  <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-center">
-                    <p className="text-2xl font-bold text-amber-800">
-                      {naInfo.studentCountries}
-                    </p>
-                    <p className="text-xs text-amber-600">
-                      {c.northernAcademy.stats.countries}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <OrgCard
-                  name={northernAcademy.name}
-                  type={northernAcademy.type}
-                  address={northernAcademy.address}
-                  description={northernAcademy.description}
-                  website={northernAcademy.website}
-                  sourceUrl={northernAcademy.sourceUrl}
-                />
-                {/* Programs */}
-                <Card>
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-sm font-medium text-slate-500">
-                      {c.northernAcademy.programsLabel}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="flex flex-wrap gap-2">
-                      {naInfo.programs.map((p) => (
-                        <Badge
-                          key={p.name}
-                          variant="outline"
-                          className="text-xs"
-                        >
-                          {p.name}
-                        </Badge>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-                {/* Tuition & Enrollment */}
-                {naInfo.tuition && (
-                  <div className="flex gap-3 text-sm">
-                    <Badge className="bg-slate-100 text-slate-700">
-                      {c.northernAcademy.tuitionLabel}:{" "}
-                      {naInfo.tuition.notes || `$${naInfo.tuition.amount.toLocaleString()}/${naInfo.tuition.period}`}
-                    </Badge>
-                    {naInfo.enrollment?.total && (
-                      <Badge className="bg-slate-100 text-slate-700">
-                        <Users className="mr-1 size-3" />
-                        {naInfo.enrollment.total} {c.northernAcademy.studentsLabel}
-                      </Badge>
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Fei Tian College */}
-      <section className="bg-slate-50 py-16">
+      {/* Vassar College */}
+      <section className="py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-8 flex items-center gap-2">
             <Award className="size-5 text-purple-600" />
             <h2 className="text-2xl font-bold text-slate-900">
-              {c.feiTianCollege.title}
+              {c.vassarCollege.title}
             </h2>
             <Badge className="bg-purple-100 text-purple-800">
-              {c.feiTianCollege.badge}
-            </Badge>
-          </div>
-          <div className="mb-8 grid gap-8 lg:grid-cols-2">
-            <div>
-              <p className="mb-4 text-slate-600">{c.feiTianCollege.desc}</p>
-              {/* Campuses */}
-              {ftcInfo?.campuses && (
-                <div className="mt-4 space-y-3">
-                  <p className="text-sm font-medium text-slate-500">
-                    {c.feiTianCollege.campusesLabel}
-                  </p>
-                  {ftcInfo.campuses.map((campus) => (
-                    <div
-                      key={campus.name}
-                      className="flex items-start gap-2 text-sm"
-                    >
-                      <Building2 className="mt-0.5 size-4 shrink-0 text-purple-500" />
-                      <div>
-                        <p className="font-medium text-slate-900">
-                          {campus.name}
-                        </p>
-                        <p className="text-slate-500">
-                          {campus.address}
-                          {campus.acres && ` (${campus.acres} acres)`}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-              {/* Quick stats */}
-              {ftcInfo && (
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {ftcInfo.tuition && (
-                    <Badge className="bg-purple-50 text-purple-700">
-                      {c.feiTianCollege.tuitionLabel}:{" "}
-                      {ftcInfo.tuition.notes || `$${ftcInfo.tuition.amount.toLocaleString()}/${ftcInfo.tuition.period}`}
-                    </Badge>
-                  )}
-                  {ftcInfo.enrollment?.retentionRate && (
-                    <Badge className="bg-purple-50 text-purple-700">
-                      {c.feiTianCollege.retentionLabel}: {ftcInfo.enrollment.retentionRate}
-                    </Badge>
-                  )}
-                  {ftcInfo.leadership && (
-                    <Badge className="bg-purple-50 text-purple-700">
-                      <Globe className="mr-1 size-3" />
-                      {ftcInfo.leadership.map((l) => l.name).join(", ")}
-                    </Badge>
-                  )}
-                </div>
-              )}
-            </div>
-            <OrgCard
-              name={feiTianCollege.name}
-              type={feiTianCollege.type}
-              address={feiTianCollege.address}
-              description={feiTianCollege.description}
-              website={feiTianCollege.website}
-              sourceUrl={feiTianCollege.sourceUrl}
-            />
-          </div>
-
-          {/* Programs by level */}
-          {ftcInfo && (
-            <ProgramsByLevel
-              info={ftcInfo}
-              undergraduate={c.feiTianCollege.undergrad}
-              graduate={c.feiTianCollege.grad}
-            />
-          )}
-        </div>
-      </section>
-
-      {/* Fei Tian Academy */}
-      <section className="py-16">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-8 flex items-center gap-2">
-            <School className="size-5 text-purple-600" />
-            <h2 className="text-2xl font-bold text-slate-900">
-              {c.feiTianAcademy.title}
-            </h2>
-            <Badge className="bg-purple-100 text-purple-800">
-              {c.feiTianAcademy.badge}
+              {c.vassarCollege.badge}
             </Badge>
           </div>
           <div className="grid gap-8 lg:grid-cols-2">
-            <OrgCard
-              name={feiTianAcademy.name}
-              type={feiTianAcademy.type}
-              address={feiTianAcademy.address}
-              description={feiTianAcademy.description}
-              website={feiTianAcademy.website}
-              sourceUrl={feiTianAcademy.sourceUrl}
-            />
             <div>
-              <p className="text-slate-600">{c.feiTianAcademy.desc}</p>
+              <p className="mb-4 text-slate-600">{c.vassarCollege.desc}</p>
             </div>
+            <OrgCard
+              name={vassarCollege.name}
+              type={vassarCollege.type}
+              address={vassarCollege.address}
+              description={vassarCollege.description}
+              website={vassarCollege.website}
+              sourceUrl={vassarCollege.sourceUrl}
+            />
           </div>
         </div>
       </section>
 
-      {/* Touro COM */}
+      {/* Bard College */}
       <section className="bg-slate-50 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-8 flex items-center gap-2">
-            <BookOpen className="size-5 text-purple-600" />
+            <Building2 className="size-5 text-purple-600" />
             <h2 className="text-2xl font-bold text-slate-900">
-              {c.touro.title}
+              {c.bardCollege.title}
             </h2>
-            <Badge className="bg-emerald-100 text-emerald-800">
-              {c.touro.badge}
+            <Badge className="bg-indigo-100 text-indigo-800">
+              {c.bardCollege.badge}
+            </Badge>
+          </div>
+          <div className="grid gap-8 lg:grid-cols-2">
+            <OrgCard
+              name={bardCollege.name}
+              type={bardCollege.type}
+              address={bardCollege.address}
+              description={bardCollege.description}
+              website={bardCollege.website}
+              sourceUrl={bardCollege.sourceUrl}
+            />
+            <div>
+              <p className="text-slate-600">{c.bardCollege.desc}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SUNY New Paltz */}
+      <section className="py-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-8 flex items-center gap-2">
+            <GraduationCap className="size-5 text-purple-600" />
+            <h2 className="text-2xl font-bold text-slate-900">
+              {c.sunyNewPaltz.title}
+            </h2>
+            <Badge className="bg-sky-100 text-sky-800">
+              {c.sunyNewPaltz.badge}
             </Badge>
           </div>
           <div className="grid gap-8 lg:grid-cols-2">
             <div>
-              <p className="mb-4 text-slate-600">{c.touro.desc}</p>
+              <p className="mb-4 text-slate-600">{c.sunyNewPaltz.desc}</p>
             </div>
             <OrgCard
-              name={touro.name}
-              type={touro.type}
-              address={touro.address}
-              description={touro.description}
-              website={touro.website}
-              sourceUrl={touro.sourceUrl}
+              name={sunyNewPaltz.name}
+              type={sunyNewPaltz.type}
+              address={sunyNewPaltz.address}
+              description={sunyNewPaltz.description}
+              website={sunyNewPaltz.website}
+              sourceUrl={sunyNewPaltz.sourceUrl}
             />
+          </div>
+        </div>
+      </section>
+
+      {/* IBM Quantum Computation Center */}
+      <section className="bg-slate-50 py-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-8 flex items-center gap-2">
+            <Cpu className="size-5 text-purple-600" />
+            <h2 className="text-2xl font-bold text-slate-900">
+              {c.ibmQuantum.title}
+            </h2>
+            <Badge className="bg-emerald-100 text-emerald-800">
+              {c.ibmQuantum.badge}
+            </Badge>
+          </div>
+          <div className="grid gap-8 lg:grid-cols-2">
+            <OrgCard
+              name={ibmQuantum.name}
+              type={ibmQuantum.type}
+              address={ibmQuantum.address}
+              description={ibmQuantum.description}
+              website={ibmQuantum.website}
+              sourceUrl={ibmQuantum.sourceUrl}
+            />
+            <div>
+              <p className="text-slate-600">{c.ibmQuantum.desc}</p>
+            </div>
           </div>
         </div>
       </section>
@@ -407,26 +183,16 @@ export function EducationClient() {
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-8 flex items-center gap-2">
-            <GraduationCap className="size-5 text-purple-600" />
+            <BookOpen className="size-5 text-purple-600" />
             <h2 className="text-2xl font-bold text-slate-900">
               {c.sunyOrange.title}
             </h2>
-            <Badge className="bg-sky-100 text-sky-800">
+            <Badge className="bg-amber-100 text-amber-800">
               {c.sunyOrange.badge}
             </Badge>
           </div>
-          <div className="grid gap-8 lg:grid-cols-2">
-            <OrgCard
-              name={sunyOrange.name}
-              type={sunyOrange.type}
-              address={sunyOrange.address}
-              description={sunyOrange.description}
-              website={sunyOrange.website}
-              sourceUrl={sunyOrange.sourceUrl}
-            />
-            <div>
-              <p className="text-slate-600">{c.sunyOrange.desc}</p>
-            </div>
+          <div className="max-w-3xl">
+            <p className="text-slate-600">{c.sunyOrange.desc}</p>
           </div>
         </div>
       </section>
@@ -461,34 +227,40 @@ export function EducationClient() {
       {/* Education Map */}
       <MapSection
         title={c.header.title}
-        description={northernAcademy.address}
+        description={vassarCollege.address}
         badgeLabel={c.header.badge}
-        center={[41.447, -74.425]}
-        zoom={14}
+        center={[41.75, -73.98]}
+        zoom={10}
         markers={[
           {
-            id: "northern-academy",
-            position: [41.4451, -74.4265],
-            title: northernAcademy.name,
-            description: northernAcademy.address,
+            id: "vassar-college",
+            position: [41.6898, -73.8978],
+            title: vassarCollege.name,
+            description: vassarCollege.address,
           },
           {
-            id: "fei-tian-college",
-            position: [41.4462, -74.4235],
-            title: feiTianCollege.name,
-            description: feiTianCollege.address,
+            id: "bard-college",
+            position: [42.0268, -73.9068],
+            title: bardCollege.name,
+            description: bardCollege.address,
           },
           {
-            id: "touro-com",
-            position: [41.4467, -74.4187],
-            title: touro.name,
-            description: touro.address,
+            id: "suny-new-paltz",
+            position: [41.7484, -74.0858],
+            title: sunyNewPaltz.name,
+            description: sunyNewPaltz.address,
+          },
+          {
+            id: "ibm-poughkeepsie",
+            position: [41.6959, -73.9348],
+            title: ibmQuantum.name,
+            description: ibmQuantum.address,
           },
           {
             id: "suny-orange",
             position: [41.4413, -74.4244],
-            title: sunyOrange.name,
-            description: sunyOrange.address,
+            title: "SUNY Orange",
+            description: "115 South St, Middletown, NY 10940",
           },
         ]}
       />

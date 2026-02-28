@@ -8,7 +8,7 @@ const en = {
   },
   partnerInstitutions: {
     title: "Partner Institutions",
-    desc: "Four key academic institutions form the core of Hudson Valley\u2019s education ecosystem.",
+    desc: "Hudson Valley's education ecosystem is anchored by leading institutions: Vassar College, Bard College, SUNY New Paltz, and the IBM Quantum Computation Center — spanning liberal arts, performing arts, public education, and cutting-edge technology research.",
     visitWebsite: "Visit Website",
   },
   exchangePrograms: {
@@ -39,7 +39,7 @@ const en = {
       {
         area: "Biomedical Sciences",
         description:
-          "Fei Tian College\u2019s biomedical sciences program combined with Touro COM\u2019s medical research capabilities create opportunities for translational research.",
+          "Vassar College's neuroscience and biochemistry programs, combined with Vassar Brothers Medical Center's Northwell Health research network, create opportunities for cutting-edge translational research.",
       },
       {
         area: "Data Science & Computing",
@@ -49,12 +49,12 @@ const en = {
       {
         area: "Community Health",
         description:
-          "Community-based health research leveraging Northern Medical Center\u2019s integrative medicine approach and Touro\u2019s clinical training.",
+          "Community health research leveraging WMCHealth's academic medical resources, Garnet Health's Orange County reach, and SUNY New Paltz's public health programs.",
       },
       {
         area: "Performing Arts",
         description:
-          "Fei Tian\u2019s world-renowned dance and fine arts programs offer unique research opportunities in arts education and cultural preservation.",
+          "Bard College's world-renowned Conservatory and Fisher Center for the Performing Arts offer unparalleled research opportunities in music, dance, and arts education.",
       },
     ],
   },
@@ -67,14 +67,14 @@ const en = {
     desc: "A unique medical education pathway from classroom to clinical practice.",
     stages: [
       {
-        name: "Touro COM",
+        name: "Vassar Brothers Medical Center",
         description:
-          "Osteopathic medical students receive classroom education and pre-clinical training at the Hudson Valley campus.",
+          "Northwell Health's affiliate in Poughkeepsie serves as a major clinical training hub, partnering with regional universities for medical and nursing education pipelines.",
       },
       {
-        name: "Clinical Rotations",
+        name: "Clinical Rotations at WMCHealth",
         description:
-          "Students complete clinical rotations at Northern Medical Center and Garnet Health Medical Center, gaining real-world medical experience.",
+          "Students complete clinical rotations at WMCHealth (Westchester Medical Center), a Level I Trauma Center and academic medical center providing real-world clinical experience across specialties.",
       },
       {
         name: "Local Practice",
@@ -101,7 +101,7 @@ const zhTW: SchoolContent = {
   },
   partnerInstitutions: {
     title: "合作機構",
-    desc: "四所核心學術機構構成 Hudson Valley 教育生態系統的基礎。",
+    desc: "Hudson Valley 的教育生態系統以頂尖機構為核心：Vassar College、Bard College、SUNY New Paltz 及 IBM 量子計算中心——涵蓋文理教育、表演藝術、公立高等教育與前沿科技研究。",
     visitWebsite: "造訪網站",
   },
   exchangePrograms: {
@@ -132,7 +132,7 @@ const zhTW: SchoolContent = {
       {
         area: "生物醫學科學",
         description:
-          "Fei Tian College 的生物醫學科學計畫結合 Touro COM 的醫學研究能力，創造轉化研究的機會。",
+          "Vassar College 的神經科學與生物化學課程，結合 Vassar Brothers Medical Center（Northwell Health 聯盟）的醫學研究網絡，創造尖端轉化研究機會。",
       },
       {
         area: "資料科學與運算",
@@ -142,12 +142,12 @@ const zhTW: SchoolContent = {
       {
         area: "社區健康",
         description:
-          "結合 Northern Medical Center 的整合醫學方法和 Touro 臨床訓練的社區健康研究。",
+          "結合 WMCHealth 的學術醫療資源、Garnet Health 在橙縣的服務範圍，以及 SUNY New Paltz 公共衛生課程的社區健康研究。",
       },
       {
         area: "表演藝術",
         description:
-          "Fei Tian 享譽世界的舞蹈和美術課程提供藝術教育和文化保存方面的獨特研究機會。",
+          "Bard College 享譽全球的音樂學院及 Fisher Center for the Performing Arts，提供音樂、舞蹈與藝術教育研究的無與倫比機會。",
       },
     ],
   },
@@ -160,14 +160,14 @@ const zhTW: SchoolContent = {
     desc: "從課堂到臨床實踐的獨特醫學教育路徑。",
     stages: [
       {
-        name: "Touro COM",
+        name: "Vassar Brothers Medical Center",
         description:
-          "骨科醫學學生在 Hudson Valley 校區接受課堂教育和臨床前訓練。",
+          "Northwell Health 在波啟浦夕（Poughkeepsie）的附屬醫院，是區域主要臨床教學中心，與各大學合作建立醫療及護理教育培訓體系。",
       },
       {
-        name: "臨床實習",
+        name: "WMCHealth 臨床實習",
         description:
-          "學生在 Northern Medical Center 和 Garnet Health Medical Center 完成臨床實習，獲得真實的醫療經驗。",
+          "學生在 WMCHealth（Westchester Medical Center）進行臨床實習，該機構為 Level I 創傷中心及學術醫療中心，提供跨專科真實臨床經驗。",
       },
       {
         name: "在地執業",
@@ -192,7 +192,7 @@ const es: SchoolContent = {
   },
   partnerInstitutions: {
     title: "Instituciones Asociadas",
-    desc: "Cuatro instituciones académicas clave forman el núcleo del ecosistema educativo de Hudson Valley.",
+    desc: "El ecosistema educativo de Hudson Valley está anclado por instituciones líderes: Vassar College, Bard College, SUNY New Paltz y el Centro de Computación Cuántica de IBM — abarcando artes liberales, artes escénicas, educación pública e investigación tecnológica de vanguardia.",
     visitWebsite: "Visitar Sitio Web",
   },
   exchangePrograms: {
@@ -223,7 +223,7 @@ const es: SchoolContent = {
       {
         area: "Ciencias Biomédicas",
         description:
-          "El programa de ciencias biomédicas de Fei Tian College combinado con las capacidades de investigación médica de Touro COM crean oportunidades para la investigación traslacional.",
+          "Los programas de neurociencia y bioquímica de Vassar College, combinados con la red de investigación de Northwell Health en Vassar Brothers Medical Center, crean oportunidades para investigación traslacional de vanguardia.",
       },
       {
         area: "Ciencia de Datos y Computación",
@@ -233,12 +233,12 @@ const es: SchoolContent = {
       {
         area: "Salud Comunitaria",
         description:
-          "Investigación en salud comunitaria aprovechando el enfoque de medicina integrativa de Northern Medical Center y la formación clínica de Touro.",
+          "Investigación en salud comunitaria aprovechando los recursos médicos académicos de WMCHealth, el alcance de Garnet Health en el condado de Orange y los programas de salud pública de SUNY New Paltz.",
       },
       {
         area: "Artes Escénicas",
         description:
-          "Los programas de danza y bellas artes de renombre mundial de Fei Tian ofrecen oportunidades de investigación únicas en educación artística y preservación cultural.",
+          "El Conservatorio de renombre mundial de Bard College y el Fisher Center for the Performing Arts ofrecen oportunidades de investigación incomparables en música, danza y educación artística.",
       },
     ],
   },
@@ -251,14 +251,14 @@ const es: SchoolContent = {
     desc: "Una vía única de educación médica desde el aula hasta la práctica clínica.",
     stages: [
       {
-        name: "Touro COM",
+        name: "Vassar Brothers Medical Center",
         description:
-          "Los estudiantes de medicina osteopática reciben educación en el aula y formación preclínica en el campus de Hudson Valley.",
+          "El afiliado de Northwell Health en Poughkeepsie sirve como importante centro de formación clínica, colaborando con universidades regionales en programas de educación médica y de enfermería.",
       },
       {
-        name: "Rotaciones Clínicas",
+        name: "Rotaciones Clínicas en WMCHealth",
         description:
-          "Los estudiantes completan rotaciones clínicas en Northern Medical Center y Garnet Health Medical Center, adquiriendo experiencia médica real.",
+          "Los estudiantes completan rotaciones clínicas en WMCHealth (Westchester Medical Center), un Centro de Trauma Nivel I y centro médico académico que brinda experiencia clínica real en múltiples especialidades.",
       },
       {
         name: "Práctica Local",

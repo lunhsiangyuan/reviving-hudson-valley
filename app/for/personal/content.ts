@@ -48,7 +48,7 @@ const en = {
       {
         title: "Comprehensive Healthcare",
         description:
-          "Multiple healthcare providers at your doorstep: Northern Medical Center (integrative Western + Chinese medicine, TMS, mental health), Garnet Health Medical Center (full-service hospital), Touro COM (medical training pipeline). Medicare and Medicaid widely accepted.",
+          "World-class healthcare at your doorstep: WMCHealth (Level I Trauma Center, academic medical center), Vassar Brothers Medical Center (Northwell Health affiliate, Poughkeepsie), and Garnet Health Medical Center (Orange County). Medicare and Medicaid widely accepted across all networks.",
       },
     ],
   },
@@ -165,7 +165,7 @@ const zhTW: PersonalContent = {
       {
         title: "完善的醫療照護",
         description:
-          "多家醫療機構近在咫尺：Northern Medical Center（中西醫結合、TMS、心理健康）、Garnet Health Medical Center（全方位醫院）、Touro COM（醫學教育體系）。廣泛接受 Medicare 和 Medicaid。",
+          "世界級醫療照護近在咫尺：WMCHealth（Level I 創傷中心、學術醫療中心）、Vassar Brothers Medical Center（Northwell Health 聯盟，波啟浦夕）、Garnet Health Medical Center（橙縣）。所有醫療網絡廣泛接受 Medicare 和 Medicaid。",
       },
     ],
   },
@@ -280,7 +280,7 @@ const es: PersonalContent = {
       {
         title: "Atención Médica Integral",
         description:
-          "Múltiples proveedores de salud a tu puerta: Northern Medical Center (medicina integrativa occidental + china, TMS, salud mental), Garnet Health Medical Center (hospital de servicio completo), Touro COM (formación médica). Medicare y Medicaid ampliamente aceptados.",
+          "Atención médica de clase mundial a tu puerta: WMCHealth (Centro de Trauma Nivel I, centro médico académico), Vassar Brothers Medical Center (afiliado de Northwell Health, Poughkeepsie) y Garnet Health Medical Center (condado de Orange). Medicare y Medicaid ampliamente aceptados en todas las redes.",
       },
     ],
   },
