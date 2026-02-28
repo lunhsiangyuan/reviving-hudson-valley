@@ -6,7 +6,7 @@ const en = {
     title: "Your Guide to Hudson Valley",
     desc: "Everything you need to know about living, working, and thriving in Hudson Valley, NY -- a growing community with small-town charm and big-city access.",
   },
-  whyHudson Valley: {
+  whyHudsonValley: {
     title: "Why Hudson Valley?",
     items: [
       {
@@ -123,7 +123,7 @@ const zhTW: PersonalContent = {
     title: "您的 Hudson Valley 指南",
     desc: "關於在 Hudson Valley, NY 生活、工作和發展的一切——一個兼具小鎮魅力與大城市便利的成長中社區。",
   },
-  whyHudson Valley: {
+  whyHudsonValley: {
     title: "為什麼選擇 Hudson Valley？",
     items: [
       {
@@ -238,7 +238,7 @@ const es: PersonalContent = {
     title: "Tu Guía de Hudson Valley",
     desc: "Todo lo que necesitas saber sobre vivir, trabajar y prosperar en Hudson Valley, NY -- una comunidad en crecimiento con encanto de pueblo pequeño y acceso a la gran ciudad.",
   },
-  whyHudson Valley: {
+  whyHudsonValley: {
     title: "¿Por qué Hudson Valley?",
     items: [
       {

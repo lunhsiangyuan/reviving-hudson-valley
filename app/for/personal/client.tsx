@@ -65,10 +65,10 @@ export function PersonalClient() {
       {/* Why Hudson Valley */}
       <section className="px-6 py-14 lg:px-12">
         <h2 className="mb-8 text-2xl font-bold text-slate-900">
-          {c.whyHudson Valley.title}
+          {c.whyHudsonValley.title}
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {c.whyHudson Valley.items.map((item, i) => {
+          {c.whyHudsonValley.items.map((item, i) => {
             const Icon = qualityOfLifeIcons[i];
             return (
               <Card key={i}>
