@@ -11,6 +11,8 @@
     "lifestyle": "Lifestyle",
     "transportation": "Transportation",
     "caseStudies": "Case Studies",
+    "agriculture": "Agriculture & Food",
+    "tourism": "Tourism & Culture",
     "forPersonal": "For Residents",
     "forSchool": "For Schools",
     "forGovernment": "For Government",
@@ -73,7 +75,9 @@
       "revitalization": "$40M+ Downtown Revitalization Initiative transforming multiple city centers.",
       "lifestyle": "A vibrant mix of farms, wineries, art centers, and cultural destinations.",
       "transportation": "Strategic connectivity to NYC via Metro-North, Amtrak, and interstate highways.",
-      "caseStudies": "Lessons from comparable cities and regions that have revitalized successfully."
+      "caseStudies": "Lessons from comparable cities and regions that have revitalized successfully.",
+      "agriculture": "Farms, vineyards, and agri-tourism across Hudson Valley's 2,280+ active farms",
+      "tourism": "World-class arts, history, and natural landscapes from Dia:Beacon to the Catskills"
     }
   },
   "stats": {

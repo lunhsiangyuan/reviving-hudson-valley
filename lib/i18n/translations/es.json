@@ -11,6 +11,8 @@
     "lifestyle": "Estilo de Vida",
     "transportation": "Transporte",
     "caseStudies": "Casos de Estudio",
+    "agriculture": "Agricultura y Alimentos",
+    "tourism": "Turismo y Cultura",
     "forPersonal": "Para Residentes",
     "forSchool": "Para Escuelas",
     "forGovernment": "Para el Gobierno",
@@ -73,7 +75,9 @@
       "revitalization": "Iniciativa de Revitalizacion del Centro de $40M+ transformando multiples centros de ciudades.",
       "lifestyle": "Una vibrante mezcla de granjas, bodegas, centros de arte y destinos culturales.",
       "transportation": "Conectividad estrategica con NYC via Metro-North, Amtrak y autopistas interestatales.",
-      "caseStudies": "Lecciones de ciudades y regiones comparables que se han revitalizado con exito."
+      "caseStudies": "Lecciones de ciudades y regiones comparables que se han revitalizado con exito.",
+      "agriculture": "Granjas, vinedos y agroturismo en las 2,280+ granjas activas del Hudson Valley",
+      "tourism": "Artes, historia y paisajes naturales de clase mundial desde Dia:Beacon hasta las Catskills"
     }
   },
   "stats": {

@@ -10,6 +10,8 @@ import {
   Train,
   BookOpen,
   ArrowRight,
+  Sprout,
+  Camera,
 } from "lucide-react";
 import {
   Card,
@@ -82,6 +84,24 @@ const topics = [
     color: "text-indigo-600",
     bgColor: "bg-indigo-50",
     hoverBorder: "hover:border-indigo-300",
+  },
+  {
+    titleKey: "nav.agriculture",
+    descKey: "home.topics.agriculture",
+    icon: Sprout,
+    href: "/agriculture",
+    color: "text-green-600",
+    bgColor: "bg-green-50",
+    hoverBorder: "hover:border-green-300",
+  },
+  {
+    titleKey: "nav.tourism",
+    descKey: "home.topics.tourism",
+    icon: Camera,
+    href: "/tourism",
+    color: "text-teal-600",
+    bgColor: "bg-teal-50",
+    hoverBorder: "hover:border-teal-300",
   },
 ];
 

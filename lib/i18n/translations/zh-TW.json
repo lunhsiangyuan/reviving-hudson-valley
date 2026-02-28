@@ -11,6 +11,8 @@
     "lifestyle": "生活",
     "transportation": "交通",
     "caseStudies": "案例研究",
+    "agriculture": "農業與食物",
+    "tourism": "觀光與文化",
     "forPersonal": "居民專區",
     "forSchool": "學校專區",
     "forGovernment": "政府專區",
@@ -73,7 +75,9 @@
       "revitalization": "四千萬美元市中心振興計畫，改造多個城市中心。",
       "lifestyle": "農場、酒莊、藝術中心和文化目的地的繽紛組合。",
       "transportation": "透過 Metro-North、Amtrak 和州際公路連結紐約市的戰略交通。",
-      "caseStudies": "相近城市和地區成功振興的經驗借鑑。"
+      "caseStudies": "相近城市和地區成功振興的經驗借鑑。",
+      "agriculture": "Hudson Valley 2,280+ 座農場、葡萄園和農業觀光體驗",
+      "tourism": "從 Dia:Beacon 到 Catskills，世界級藝術、歷史與自然景觀"
     }
   },
   "stats": {
