@@ -17,7 +17,7 @@ const en = {
       {
         title: "Growing Community",
         description:
-          "A diverse, welcoming population of 30,345+ residents with strong community events and cultural organizations.",
+          "A diverse, welcoming population of 1.7 million residents with strong community events and cultural organizations.",
       },
       {
         title: "Affordable Living",
@@ -57,9 +57,9 @@ const en = {
     desc: "Hudson Valley offers an affordable alternative to New York City while remaining well-connected to the metro area.",
     stats: [
       { label: "Avg. Home Price", value: "$395K", change: "+63% since 2019" },
-      { label: "Median Household Income", value: "$52K", change: "" },
+      { label: "Median Household Income", value: "$117K", change: "+2.3% YoY" },
       { label: "Distance to NYC", value: "~90 min", change: "via I-84 / NJ Transit" },
-      { label: "City Area", value: "5.2 sq mi", change: "" },
+      { label: "Region Coverage", value: "9 Counties", change: "4,891 sq mi" },
     ],
   },
   community: {
@@ -82,10 +82,10 @@ const en = {
     title: "Employment & Economy",
     desc: "Key growth sectors are expanding employment opportunities in Hudson Valley.",
     sectors: [
-      { sector: "Healthcare", companies: "Garnet Health, Northern Medical Center, Touro COM" },
-      { sector: "Education", companies: "Fei Tian College, SUNY Orange, Fei Tian Academy" },
-      { sector: "Technology", companies: "Gan Jing World (HQ)" },
-      { sector: "Media", companies: "NTD Television, The Epoch Times, Sound of Hope Radio" },
+      { sector: "Healthcare", companies: "Garnet Health, WMCHealth, Crystal Run Healthcare" },
+      { sector: "Education", companies: "Vassar College, Marist College, SUNY New Paltz" },
+      { sector: "Technology", companies: "IBM (Fishkill), Gan Jing World, Google Data Center" },
+      { sector: "Arts & Culture", companies: "Dia:Beacon, Storm King Art Center, Hudson Valley MOCA" },
     ],
   },
   gettingAround: {
@@ -134,7 +134,7 @@ const zhTW: PersonalContent = {
       {
         title: "成長中的社區",
         description:
-          "擁有超過 30,345 位居民的多元化、友善社區，舉辦豐富的社區活動和文化組織。",
+          "擁有超過 170 萬位居民的多元化、友善地區，舉辦豐富的社區活動和文化組織。",
       },
       {
         title: "可負擔的生活",
@@ -174,9 +174,9 @@ const zhTW: PersonalContent = {
     desc: "Hudson Valley 提供相較紐約市更為實惠的替代選擇，同時保持與都會區的良好連結。",
     stats: [
       { label: "平均房價", value: "$395K", change: "自 2019 年以來 +63%" },
-      { label: "家庭收入中位數", value: "$52K", change: "" },
+      { label: "家庭收入中位數", value: "$117K", change: "+2.3% 年增" },
       { label: "至紐約市距離", value: "~90 分鐘", change: "經 I-84 / NJ Transit" },
-      { label: "城市面積", value: "5.2 sq mi", change: "" },
+      { label: "地區範圍", value: "9 個縣", change: "4,891 平方英里" },
     ],
   },
   community: {
@@ -199,10 +199,10 @@ const zhTW: PersonalContent = {
     title: "就業與經濟",
     desc: "關鍵成長產業正在擴大 Hudson Valley 的就業機會。",
     sectors: [
-      { sector: "醫療保健", companies: "Garnet Health, Northern Medical Center, Touro COM" },
-      { sector: "教育", companies: "Fei Tian College, SUNY Orange, Fei Tian Academy" },
-      { sector: "科技", companies: "Gan Jing World (HQ)" },
-      { sector: "媒體", companies: "NTD Television, The Epoch Times, Sound of Hope Radio" },
+      { sector: "醫療保健", companies: "Garnet Health, WMCHealth, Crystal Run Healthcare" },
+      { sector: "教育", companies: "Vassar College, Marist College, SUNY New Paltz" },
+      { sector: "科技", companies: "IBM (Fishkill), Gan Jing World, Google Data Center" },
+      { sector: "藝術與文化", companies: "Dia:Beacon, Storm King Art Center, Hudson Valley MOCA" },
     ],
   },
   gettingAround: {
@@ -249,7 +249,7 @@ const es: PersonalContent = {
       {
         title: "Comunidad en Crecimiento",
         description:
-          "Una población diversa y acogedora de más de 30,345 residentes con eventos comunitarios sólidos y organizaciones culturales.",
+          "Una población diversa y acogedora de más de 1.7 millones de residentes con eventos comunitarios sólidos y organizaciones culturales.",
       },
       {
         title: "Vida Asequible",
@@ -289,9 +289,9 @@ const es: PersonalContent = {
     desc: "Hudson Valley ofrece una alternativa asequible a la ciudad de Nueva York mientras permanece bien conectado al área metropolitana.",
     stats: [
       { label: "Precio Prom. de Vivienda", value: "$395K", change: "+63% desde 2019" },
-      { label: "Ingreso Familiar Mediano", value: "$52K", change: "" },
+      { label: "Ingreso Familiar Mediano", value: "$117K", change: "+2.3% anual" },
       { label: "Distancia a NYC", value: "~90 min", change: "vía I-84 / NJ Transit" },
-      { label: "Área de la Ciudad", value: "5.2 sq mi", change: "" },
+      { label: "Cobertura Regional", value: "9 Condados", change: "4,891 sq mi" },
     ],
   },
   community: {
@@ -314,10 +314,10 @@ const es: PersonalContent = {
     title: "Empleo y Economía",
     desc: "Sectores clave de crecimiento están expandiendo las oportunidades de empleo en Hudson Valley.",
     sectors: [
-      { sector: "Salud", companies: "Garnet Health, Northern Medical Center, Touro COM" },
-      { sector: "Educación", companies: "Fei Tian College, SUNY Orange, Fei Tian Academy" },
-      { sector: "Tecnología", companies: "Gan Jing World (HQ)" },
-      { sector: "Medios", companies: "NTD Television, The Epoch Times, Sound of Hope Radio" },
+      { sector: "Salud", companies: "Garnet Health, WMCHealth, Crystal Run Healthcare" },
+      { sector: "Educación", companies: "Vassar College, Marist College, SUNY New Paltz" },
+      { sector: "Tecnología", companies: "IBM (Fishkill), Gan Jing World, Google Data Center" },
+      { sector: "Artes y Cultura", companies: "Dia:Beacon, Storm King Art Center, Hudson Valley MOCA" },
     ],
   },
   gettingAround: {

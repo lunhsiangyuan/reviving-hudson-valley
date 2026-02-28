@@ -6,10 +6,10 @@ const translations = {
   "zh-TW": {
     sectionLabel: "政策指標 — 現況 vs. 目標",
     stats: [
-      { label: "就業機會", current: "2,847", target: "5,000", progress: 57 },
-      { label: "住宅單位", current: "450", target: "1,200", progress: 38 },
-      { label: "投資金額（M）", current: "$234", target: "$500", progress: 47 },
-      { label: "計畫完成率", current: "12", target: "28", progress: 43 },
+      { label: "就業機會", current: "8,500", target: "15,000", progress: 57 },
+      { label: "住宅單位", current: "2,400", target: "6,500", progress: 37 },
+      { label: "投資金額（M）", current: "$93", target: "$200", progress: 47 },
+      { label: "計畫完成率", current: "65", target: "120", progress: 54 },
     ],
     targetPrefix: "/ 目標",
     achievedSuffix: "達成",
@@ -17,10 +17,10 @@ const translations = {
   en: {
     sectionLabel: "Policy Metrics — Current vs. Target",
     stats: [
-      { label: "Jobs Created", current: "2,847", target: "5,000", progress: 57 },
-      { label: "Housing Units", current: "450", target: "1,200", progress: 38 },
-      { label: "Investment (M)", current: "$234", target: "$500", progress: 47 },
-      { label: "Projects Completed", current: "12", target: "28", progress: 43 },
+      { label: "Jobs Created", current: "8,500", target: "15,000", progress: 57 },
+      { label: "Housing Units", current: "2,400", target: "6,500", progress: 37 },
+      { label: "Investment (M)", current: "$93", target: "$200", progress: 47 },
+      { label: "Projects Completed", current: "65", target: "120", progress: 54 },
     ],
     targetPrefix: "/ Target",
     achievedSuffix: "achieved",
@@ -28,10 +28,10 @@ const translations = {
   es: {
     sectionLabel: "Indicadores — Actual vs. Meta",
     stats: [
-      { label: "Empleos Creados", current: "2,847", target: "5,000", progress: 57 },
-      { label: "Unidades de Vivienda", current: "450", target: "1,200", progress: 38 },
-      { label: "Inversión (M)", current: "$234", target: "$500", progress: 47 },
-      { label: "Proyectos Completados", current: "12", target: "28", progress: 43 },
+      { label: "Empleos Creados", current: "8,500", target: "15,000", progress: 57 },
+      { label: "Unidades de Vivienda", current: "2,400", target: "6,500", progress: 37 },
+      { label: "Inversión (M)", current: "$93", target: "$200", progress: 47 },
+      { label: "Proyectos Completados", current: "65", target: "120", progress: 54 },
     ],
     targetPrefix: "/ Meta",
     achievedSuffix: "logrado",
