@@ -30,59 +30,53 @@ import { content } from "./content";
 
 type SectorType =
   | "Technology"
-  | "Media"
-  | "Education"
   | "Healthcare"
-  | "Retail"
-  | "Food & Beverage";
+  | "Arts & Tourism"
+  | "Agriculture"
+  | "Environment"
+  | "Tourism";
 
 const sectorLabels: Record<SectorType, Record<Language, string>> = {
   Technology: { en: "Technology", "zh-TW": "科技", es: "Tecnología" },
-  Media: { en: "Media", "zh-TW": "媒體", es: "Medios" },
-  Education: { en: "Education", "zh-TW": "教育", es: "Educación" },
   Healthcare: { en: "Healthcare", "zh-TW": "醫療", es: "Salud" },
-  Retail: { en: "Retail", "zh-TW": "零售", es: "Comercio" },
-  "Food & Beverage": { en: "Food & Beverage", "zh-TW": "餐飲", es: "Alimentos" },
+  "Arts & Tourism": { en: "Arts & Tourism", "zh-TW": "藝文觀光", es: "Arte y Turismo" },
+  Agriculture: { en: "Agriculture", "zh-TW": "農業", es: "Agricultura" },
+  Environment: { en: "Environment", "zh-TW": "環境保育", es: "Medio Ambiente" },
+  Tourism: { en: "Tourism", "zh-TW": "旅遊", es: "Turismo" },
 };
 
 const sectorBadgeColors: Record<SectorType, string> = {
   Technology: "bg-violet-100 text-violet-800",
-  Media: "bg-sky-100 text-sky-800",
-  Education: "bg-purple-100 text-purple-800",
   Healthcare: "bg-emerald-100 text-emerald-800",
-  Retail: "bg-amber-100 text-amber-800",
-  "Food & Beverage": "bg-orange-100 text-orange-800",
+  "Arts & Tourism": "bg-pink-100 text-pink-800",
+  Agriculture: "bg-lime-100 text-lime-800",
+  Environment: "bg-teal-100 text-teal-800",
+  Tourism: "bg-sky-100 text-sky-800",
 };
 
 const sectorGradients: Record<SectorType, string> = {
   Technology: "from-violet-500 to-violet-700",
-  Media: "from-sky-500 to-sky-700",
-  Education: "from-purple-500 to-purple-700",
   Healthcare: "from-emerald-500 to-emerald-700",
-  Retail: "from-amber-500 to-amber-700",
-  "Food & Beverage": "from-orange-500 to-orange-700",
+  "Arts & Tourism": "from-pink-500 to-pink-700",
+  Agriculture: "from-lime-500 to-lime-700",
+  Environment: "from-teal-500 to-teal-700",
+  Tourism: "from-sky-500 to-sky-700",
 };
 
 const caseImages: Record<string, string> = {
-  "Gan Jing World": "/images/ganjingworld.png",
-  "NTD Television": "/images/ntd.png",
-  "The Epoch Times": "/images/epochtimes.png",
-  "Sound of Hope Radio": "/images/soundofhope.png",
-  "Vassar College": "/images/logos/vassar.png",
-  "Bard College": "/images/logos/bard.png",
-  "SUNY New Paltz": "/images/logos/suny-new-paltz.png",
-  "WMCHealth": "/images/logos/wmchealth.png",
+  "WMCHealth Network": "/images/logos/wmchealth.png",
 };
 
 const caseWebsites: Record<string, string> = {
-  "Gan Jing World": "https://www.ganjingworld.com",
-  "NTD Television": "https://www.ntd.com",
-  "The Epoch Times": "https://www.theepochtimes.com",
-  "Sound of Hope Radio": "https://www.soundofhope.org",
-  "Vassar College": "https://www.vassar.edu",
-  "Bard College": "https://www.bard.edu",
-  "SUNY New Paltz": "https://www.newpaltz.edu",
-  "WMCHealth": "https://www.wmchealth.org",
+  "IBM Quantum Computation Center": "https://www.ibm.com/quantum",
+  "WMCHealth Network": "https://www.wmchealth.org",
+  "Dia:Beacon": "https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon",
+  "Hudson Valley Venture Hub": "https://www.newpaltz.edu/sbdc/venturehub/",
+  "Millbrook Vineyards & Winery": "https://www.millbrookwine.com",
+  "Storm King Art Center": "https://www.stormking.org",
+  "ConnectHV": "https://connecthv.com",
+  "Scenic Hudson": "https://www.scenichudson.org",
+  "Mohonk Mountain House": "https://www.mohonk.com",
 };
 
 const marketStatIcons = [DollarSign, Users, Landmark, Building2];
